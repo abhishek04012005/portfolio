@@ -10,10 +10,11 @@ import CSSImage from '../../../assests/tech/css.png';
 import JSImage from '../../../assests/tech/javascript.png';
 import BootstrapImage from '../../../assests/tech/bootstrap.png';
 import ReactImage from '../../../assests/tech/reactjs.png';
-import AngularImage from '../../../assests/tech/angluar.png';
 import GitImage from '../../../assests/tech/git.png';
 import FigmaImage from '../../../assests/tech/figma.png'
 import BlenderImage from '../../../assests/tech/blender.png'
+import GimpImage from '../../../assests/tech/gimp.png'
+import InkscapeImage from '../../../assests/tech/inkscape.png'
 
 
 
@@ -154,9 +155,10 @@ const skillsImages = [
     { src: JSImage, alt: 'JavaScript' },
     { src: BootstrapImage, alt: 'Bootstrap' },
     { src: ReactImage, alt: 'React' },
-    { src: AngularImage, alt: 'angular' },
     { src: GitImage, alt: 'Git' },
     { src: FigmaImage, alt: 'Figma' },
+    { src: GimpImage, alt: 'Gimp' },
+    { src: InkscapeImage, alt: 'Inkscape' },
     { src: BlenderImage, alt: 'Blender' },
 ];
 
