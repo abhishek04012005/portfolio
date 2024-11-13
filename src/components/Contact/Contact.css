@@ -1,0 +1,14 @@
+/* Set active border color */
+.custom-text-field .MuiOutlinedInput-root.Mui-focused .MuiOutlinedInput-notchedOutline {
+    border-color: #213E60 !important; /* Active border color */
+}
+
+/* Set active placeholder color */
+.custom-text-field .MuiInputLabel-root.Mui-focused {
+    color: #213E60 !important; /* Active placeholder color */
+}
+
+/* Default placeholder color when not focused */
+.custom-text-field .MuiInputLabel-root {
+    color: #888; /* Default placeholder color */
+}

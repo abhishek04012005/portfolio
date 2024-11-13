@@ -1,0 +1,14 @@
+.Subheading {
+    /* margin: 0 0 3rem 0; */
+    /* background-color: #213E60; */
+    /* padding: 0.05rem 0 0.1rem 0; */
+    /* box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
+}
+.Subheading h2 {
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    color: #213E60;
+    text-align: left;
+    /* text-decoration: underline; */
+}

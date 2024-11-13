@@ -1,0 +1,158 @@
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+
+.work-text {
+  text-align: justify;
+
+}
+
+.paragraph-subheading {
+  font-size: 1.3rem;
+}
+
+.grid-img-svg {
+  border: 3px solid #213E60;
+  border-radius: 30px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+  color: white;
+}
+
+.main-work-box {
+  background-color: #213E60;
+  padding: 15px;
+  border-radius: 30px;
+  text-align: justify;
+  /* padding: 0 10px 0 10px; */
+}
+
+.main-work-box p {
+  color: white;
+}
+
+.work-text {
+  text-align: justify;
+
+}
+
+
+
+@media only screen and (min-width: 900px) and (max-width: 1000px) {
+  .main-work-box p {
+    color: white;
+    font-size: 0.85rem;
+  }
+
+  .work-text p {
+    font-size: 0.8rem;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1100px) {
+  .main-work-box p {
+    color: white;
+    font-size: 0.95rem;
+  }
+
+  .work-text p {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 1101px) and (max-width: 1400px) {
+  .main-work-box p {
+    color: white;
+    font-size: 1.1rem;
+  }
+
+  .work-text p {
+    font-size: 1rem;
+  }
+}
+
+
+
+@media only screen and (min-width: 1401px) and (max-width: 1700px) {
+  .main-work-box p {
+    color: white;
+    font-size: 1.15rem;
+  }
+
+  .work-text p {
+    font-size: 1.1rem;
+  }
+}
+
+@media only screen and (min-width: 1701px) and (max-width: 1900px) {
+  .main-work-box p {
+    color: white;
+    font-size: 1.2rem;
+  }
+
+  .work-text p {
+    font-size: 1.15rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .main-work-box p {
+    font-size: 1.3rem;
+  }
+
+  .work-text p {
+    font-size: 1.2rem;
+  }
+
+
+
+  /* Adjust button size for smaller screens */
+  .work-btn {
+    font-size: 1.7rem;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .main-work-box p {
+    font-size: 1.2rem;
+  }
+
+  .work-text p {
+    font-size: 1.1rem;
+  }
+
+  .work-btn {
+    font-size: 1.5rem;
+    width: 100%;
+  }
+}
+
+/* Medium-sized devices (tablet) adjustments */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .hero-text {
+    font-size: 1.3rem;
+    text-align: left;
+  }
+
+  .hero-paragraph {
+    font-size: 1rem;
+  }
+
+
+}

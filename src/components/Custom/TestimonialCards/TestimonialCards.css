@@ -1,0 +1,77 @@
+/* Container styling */
+.testimonials-elements {
+    background-color: #213E60;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.9), 0 6px 20px rgba(0, 0, 0, 0.19);
+    text-align: left;
+}
+
+/* Quote text */
+.testimonials-elements .text-white {
+    color: white;
+}
+
+/* Main quote symbol */
+.testimonials-elements .font-black {
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 1;
+}
+
+/* "MY" label */
+.testimonials-elements .tracking-wider {
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+
+/* Person's info container */
+.testimonials-elements .mt-7 {
+    margin-top: 30px;
+}
+
+/* Name text with medium font weight */
+.testimonials-elements .font-medium {
+    font-weight: 500;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/* Gradient blue text */
+.testimonials-elements .blue-text-gradient {
+    background-image: linear-gradient(to right, #4f8fd6, #7faff7);
+    -webkit-background-clip: text;
+    color: transparent;
+    background-clip: text;
+}
+
+/* Secondary text color */
+.testimonials-elements .text-secondary {
+    color: #a3a3a3;
+    font-size: 12px;
+}
+
+/* Image styling */
+.testimonials-elements img {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 10px;
+    will-change: transform;
+}
+
+/* Person's name container */
+.testimonial-person-name {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+/* Aligning name and details */
+.testimonial-person-detail {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

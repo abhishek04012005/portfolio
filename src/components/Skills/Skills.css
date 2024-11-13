@@ -1,0 +1,35 @@
+.skill-circle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* Center the circles within the container */
+    flex-wrap: wrap;
+    /* Allow wrapping when space is tight */
+    gap: 20px; /* Add a gap between each circle */
+    margin-top: 2rem;
+}
+
+.skills-content {
+    width: 50%; /* Responsive width */
+    max-width: 100px;
+    aspect-ratio: 1 / 1; /* Maintain a 1:1 aspect ratio for a perfect circle */
+    border: 5px solid #213E60;
+    border-radius: 50%; /* Make the container circular */
+    overflow: hidden; /* Hide overflow for circular clipping */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.skills-image {
+    padding: 10px;
+}
+
+.skills-image img {
+    width: 100%; /* Ensure the image fills the container */
+    height: 100%; /* Match height to maintain aspect ratio */
+    object-fit: contain; 
+}
+
