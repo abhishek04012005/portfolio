@@ -3,7 +3,7 @@ import Grid from '@mui/material/Grid2';
 import './Footer.css'
 import Container from '../Custom/Container/Container'
 import myLogo from '../../assests/portfolio_logo1.svg'
-import { EmailOutlined, Facebook, Instagram, LinkedIn, WhatsApp, X, YouTube } from '@mui/icons-material';
+import { EmailOutlined, Facebook, GitHub, Instagram, LinkedIn, WhatsApp, X, YouTube } from '@mui/icons-material';
 
 const Footer = () => {
     return (
@@ -11,9 +11,9 @@ const Footer = () => {
             <div className="footer">
                 <Container>
                     <div className="footer-item">
-                        <Grid container 
-                         spacing={{ xs: 0, md: 2, lg: 2 }}
-                         >
+                        <Grid container
+                            spacing={{ xs: 0, md: 2, lg: 2 }}
+                        >
 
 
                             <Grid
@@ -89,20 +89,56 @@ const Footer = () => {
 
                         <div className="footer-social-links">
                             <a
-                                href="https://wa.me/919264248504"
+                                href="https://wa.me/919264248504?text=Hello,%20*Abhishek*%0AI%20wish%20to%20connect%20with%20you."
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
                                 <WhatsApp />
                             </a>
-                            <a href="/"><EmailOutlined /></a>
-                            <a href="/"><Instagram /></a>
-                            <a href="/"><Facebook /></a>
-                            <a href="/"><YouTube /></a>
-                            <a href="/"><LinkedIn /></a>
-                            <a href="/"><X /></a>
+
+                            <a
+                                href="mailto:theabhishekchoudhary0401@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ><EmailOutlined /></a>
+
+                            <a
+                                href="https://www.instagram.com/theabhishekchoudhary0401/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ><Instagram /></a>
+
+                            <a
+                                href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61568533385928"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ><Facebook /></a>
+
+                            <a
+                                href="https://www.youtube.com/@theabhishekchoudhary0401"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ><YouTube /></a>
+
+                            <a
+                                href="https://www.linkedin.com/in/abhishek-choudhary-80b753232/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ><LinkedIn /></a>
+
+                            <a
+                                href="https://github.com/abhishek04012005/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ><GitHub /></a>
+
+                            <a
+                                href="https://x.com/i/flow/login?redirect_after_login=%2F02mr_abhishek"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ><X /></a>
                         </div>
-                        <p style={{ textAlign: 'center', color: 'white' }}>Copyright © 2024 <a href="/" style={{ color: 'white' }}>www.AbhishekChoudhary.co.in</a>  </p>
+                        <p style={{ textAlign: 'center', color: 'white' }}>Copyright © {new Date().getFullYear()} <a href="/" style={{ color: 'white' }}>www.AbhishekChoudhary.co.in</a>  </p>
                     </div>
                 </Container>
             </div>
