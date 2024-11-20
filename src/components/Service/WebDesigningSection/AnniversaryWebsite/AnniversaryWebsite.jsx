@@ -1,8 +1,16 @@
 import React from 'react'
+import Container from '../../../Custom/Container/Container'
+import ConstructionSVG from '../../../SVG/ConstructionSVG/ConstructionSVG'
 
 const AnniversaryWebsite = () => {
   return (
-    <div>AnniversaryWebsite</div>
+    <>
+      <div>
+        <Container>
+          <ConstructionSVG />
+        </Container>
+      </div>
+    </>
   )
 }
 

@@ -76,7 +76,7 @@ const Contact = () => {
                             />
                             <TextField
                                 className="custom-text-field"
-                                label="Number"
+                                label="Mobile Number"
                                 name="number"
                                 type="tel"
                                 variant="outlined"

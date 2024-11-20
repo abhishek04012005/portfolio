@@ -1,8 +1,16 @@
 import React from 'react'
+import ConstructionSVG from '../../../SVG/ConstructionSVG/ConstructionSVG'
+import Container from '../../../Custom/Container/Container'
 
 const BrandPromotion = () => {
   return (
-    <div>BrandPromotion</div>
+    <>
+      <div>
+        <Container>
+          <ConstructionSVG />
+        </Container>
+      </div>
+    </>
   )
 }
 

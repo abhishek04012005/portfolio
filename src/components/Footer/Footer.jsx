@@ -1,11 +1,20 @@
-import React from 'react'
+import React, { useEffect } from "react";
 import Grid from '@mui/material/Grid2';
 import './Footer.css'
 import Container from '../Custom/Container/Container'
 import myLogo from '../../assests/portfolio_logo1.svg'
 import { EmailOutlined, Facebook, GitHub, Instagram, LinkedIn, WhatsApp, X, YouTube } from '@mui/icons-material';
+import { Link, useLocation } from 'react-router-dom';
 
 const Footer = () => {
+
+    const location = useLocation();
+
+    useEffect(() => {
+        // Scroll to top whenever the route changes
+        window.scrollTo(0, 0);
+    }, [location]);
+
     return (
         <>
             <div className="footer">
@@ -35,9 +44,9 @@ const Footer = () => {
                                 // sx={{ bgcolor: 'red' }}
                                 size={{ xs: 6, md: 2 }}>
                                 <div className="footer-links">
-                                    <a href="/" className='footer-link-heading'><strong>Web Development</strong></a>
-                                    <a href="/">Business Website</a>
-                                    <a href="/">Personal Portfolio</a>
+                                    <Link className='footer-link-heading'> <strong>Web Development</strong></Link>
+                                    <Link to='/business-website'>Business Website</Link>
+                                    <Link to='/personal-portfolio'>Personal Portfolio</Link>
                                 </div>
                             </Grid>
 
@@ -45,11 +54,11 @@ const Footer = () => {
                                 // sx={{ bgcolor: 'yellow' }}
                                 size={{ xs: 6, md: 2 }}>
                                 <div className="footer-links">
-                                    <a href="/" className='footer-link-heading'><strong>Web Designing</strong></a>
-                                    <a href="/">Wedding Website</a>
-                                    <a href="/">Anniversary Website</a>
-                                    <a href="/">Birthday Website</a>
-                                    <a href="/">Blogging Website</a>
+                                    <Link className='footer-link-heading'> <strong>Web Designing</strong></Link>
+                                    <Link to='/wedding-website'>Wedding Website</Link>
+                                    <Link to='/anniversary-website'>Anniversary Website</Link>
+                                    <Link to='/birthday-website'>Birthday Website</Link>
+                                    <Link to='/blogging-website'>Blogging Website</Link>
                                 </div>
                             </Grid>
 
@@ -57,11 +66,11 @@ const Footer = () => {
                                 // sx={{ bgcolor: 'pink' }}
                                 size={{ xs: 6, md: 2 }}>
                                 <div className="footer-links">
-                                    <a href="/" className='footer-link-heading'><strong>Digital Content</strong></a>
-                                    <a href="/">Wedding Invitation</a>
-                                    <a href="/">Birthday Invitation</a>
-                                    <a href="/">Resume Writing</a>
-                                    <a href="/">Bio-Data Writing</a>
+                                    <Link className='footer-link-heading'> <strong>Digital Content</strong></Link>
+                                    <Link to='/wedding-invitation'>Wedding Invitation</Link>
+                                    <Link to='/birthday-invitation'>Birthday Invitation</Link>
+                                    <Link to='/resume-writing'>Resume Writing</Link>
+                                    <Link to='/bio-data'>Bio-Data Writing</Link>
                                 </div>
                             </Grid>
 
@@ -69,9 +78,9 @@ const Footer = () => {
                                 // sx={{ bgcolor: 'violet' }}
                                 size={{ xs: 12, md: 2 }}>
                                 <div className="footer-links">
-                                    <a href="/" className='footer-link-heading'><strong>3D Animation</strong></a>
-                                    <a href="/">Product Promotion</a>
-                                    <a href="/">Brand Promotion</a>
+                                    <Link className='footer-link-heading'> <strong>3D Animation</strong></Link>
+                                    <Link to='/product-promotion'>Product Promotion</Link>
+                                    <Link to='/brand-promotion'>Brand Promotion</Link>
                                 </div>
                             </Grid>
 
@@ -89,7 +98,7 @@ const Footer = () => {
 
                         <div className="footer-social-links">
                             <a
-                                href="https://wa.me/919264248504?text=Hello,%20*Abhishek*%0AI%20wish%20to%20connect%20with%20you."
+                                href="https://wa.me/919263767441?text=Hello,%20*Abhishek*%0AI%20wish%20to%20connect%20with%20you."
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
