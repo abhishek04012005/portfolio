@@ -28,7 +28,7 @@ const Hero = () => {
                                     <p className='hero-paragraph'>As a passionate web developer and designer, I specialize in creating dynamic digital experiences. My expertise spans across React JS, HTML, CSS, and JavaScript, enabling me to build responsive and engaging websites. With a keen eye for design, I leverage tools like Figma, Gimp, and Inkscape to craft visually stunning graphics. Additionally, my skills in Blender allow me to bring ideas to life through 3D animation.</p>
                                     <div className="hero-btn">
                                         <a
-                                            href="https://wa.me/919264248504?text=Hello,%20*Abhishek*%0AI%20wish%20to%20connect%20with%20you."
+                                            href="https://wa.me/919263767441?text=Hello,%20*Abhishek*%0AI%20wish%20to%20connect%20with%20you."
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             style={{ textDecoration: 'none' }}
