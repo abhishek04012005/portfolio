@@ -29,12 +29,13 @@ const Footer = () => {
                                 // sx={{ bgcolor: 'blue' }}
                                 size={{ xs: 6, md: 2 }}>
                                 <div className="footer-links">
-                                    <a href="#hero-my">Home</a>
-                                    <a href="#aboutme">About Me</a>
+                                   
+                                    <Link to='/'>Portfolio</Link>
+                                    {/* <a href="#aboutme">About Me</a>
                                     <a href="#myskills">My Skills</a>
                                     <a href="#mywork">My Work</a>
                                     <a href="#testimonials">Testimonials</a>
-                                    <a href="#contact">Contact Me</a>
+                                    <a href="#contact">Contact Me</a> */}
                                 </div>
 
 
