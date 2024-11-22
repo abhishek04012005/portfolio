@@ -28,10 +28,17 @@ const BioDataWriting = () => {
               <Grid
                 size={{ xs: 12, md: 7 }}>
                 <div className="main-work-box">
-                  <p className='paragraph-subheading'>I embrace new technologies to ensure I remain at the forefront of the industry. I’m adept at problem-solving and thrive in fast-paced environments, ensuring timely and efficient project completion. My collaborative nature allows me to work seamlessly with teams, bringing diverse ideas together to create exceptional outcomes. My experience extends to UX/UI design, ensuring that every project is not only visually appealing but also highly functional and user-friendly. My dedication to continuous learning.</p>
+                  <p className='paragraph-subheading'>Specialized in crafting detailed and professional bio-data documents. My approach ensures that each bio-data highlights an individual's personal, educational, and professional background in a clear and organized manner. Using a variety of design tools, I create visually appealing layouts that are easy to read and navigate. </p>
 
-                  <p className="paragraph-subheading">Additionally, I specialize in creating dynamic and captivating 3D animations for both brand and product promotion, utilizing Blender to develop immersive visual experiences that highlight the unique features and values of each project.
-                    I am currently available for freelance work and am eager to be hired for exciting projects that challenge my skills and ignite my passion. My goal is to always exceed client expectations and bring their visions to life. When I'm not coding, designing, or animating, you can find me exploring the latest tech trends and honing my craft. Let's work together to create something truly remarkable.</p>
+                  <p className="paragraph-subheading">Each bio-data is tailored to emphasize the individual's unique attributes and achievements, providing a comprehensive overview that stands out. I stay updated with the latest formatting standards and trends to ensure that the bio-data I produce meets current expectations.
+
+                  By incorporating well-structured sections such as personal information, academic qualifications, work experience, and additional skills, I aim to create bio-data documents that effectively communicate an individual's profile.
+                  </p>
+
+                
+
+                  <p className="paragraph-subheading">By integrating modern design elements and color schemes, I enhance the overall appeal while maintaining a professional tone. Whether it's for job applications, matrimonial purposes, or academic submissions, I customize bio-data formats to suit diverse needs effectively.</p>
+
 
                 </div>
               </Grid>

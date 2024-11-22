@@ -130,8 +130,8 @@ const Work = () => {
                 </Container>
 
 
-                <PhotoSectionLeft subHeadingTitle='business website' para={workText[0].subWorkText} para2={workText[0].workTextPara2} photo={<BusinessWebsiteSVG />} />
-                <PhotoSectionRight subHeadingTitle='personal portfolio' para={workText[1].subWorkText} para2={workText[0].workTextPara2} photo={<PersonalPortfoiliSVG />} />
+                <PhotoSectionLeft subHeadingTitle='business website' routerUrl='/business-website' para={workText[0].subWorkText} para2={workText[0].workTextPara2} photo={<BusinessWebsiteSVG />} />
+                <PhotoSectionRight subHeadingTitle='personal portfolio' routerUrl='/personal-portfolio' para={workText[1].subWorkText} para2={workText[0].workTextPara2} photo={<PersonalPortfoiliSVG />} />
 
             </div>
 
@@ -166,10 +166,10 @@ const Work = () => {
                 </Container>
 
 
-                <PhotoSectionRight subHeadingTitle='wedding website' para={workText[2].subWorkText} photo={<WeddingWebsiteSVG />} />
-                <PhotoSectionLeft subHeadingTitle='anniversary website' para={workText[3].subWorkText} photo={<AnniversaryWebsiteSVG />} />
-                <PhotoSectionRight subHeadingTitle='birthday website' para={workText[4].subWorkText} photo={<BirthdayWebsiteSVG />} />
-                <PhotoSectionLeft subHeadingTitle='blogging website' para={workText[5].subWorkText} photo={<BloggingSVG />} />
+                <PhotoSectionRight subHeadingTitle='wedding website' routerUrl='/wedding-website' para={workText[2].subWorkText} photo={<WeddingWebsiteSVG />} />
+                <PhotoSectionLeft subHeadingTitle='anniversary website' routerUrl='/anniversary-website' para={workText[3].subWorkText} photo={<AnniversaryWebsiteSVG />} />
+                <PhotoSectionRight subHeadingTitle='birthday website' routerUrl='/birthday-website' para={workText[4].subWorkText} photo={<BirthdayWebsiteSVG />} />
+                <PhotoSectionLeft subHeadingTitle='blogging website' routerUrl='/blogging-website' para={workText[5].subWorkText} photo={<BloggingSVG />} />
 
 
 
@@ -208,10 +208,10 @@ const Work = () => {
                 </Container>
 
 
-                <PhotoSectionLeft subHeadingTitle='wedding invitation' para={workText[6].subWorkText} photo={<WeddingInvitaionSVG />} />
-                <PhotoSectionRight subHeadingTitle='birthday invitation' para={workText[7].subWorkText} photo={<BirthdayInvitaionSVG />} />
-                <PhotoSectionLeft subHeadingTitle='resume writing' para={workText[8].subWorkText} photo={<ResumeSVG />} />
-                <PhotoSectionRight subHeadingTitle='bio-data writing' para={workText[9].subWorkText} photo={<BioDataSVG />} />
+                <PhotoSectionLeft subHeadingTitle='wedding invitation' routerUrl='/wedding-invitation' para={workText[6].subWorkText} photo={<WeddingInvitaionSVG />} />
+                <PhotoSectionRight subHeadingTitle='birthday invitation' routerUrl='/birthday-invitation' para={workText[7].subWorkText} photo={<BirthdayInvitaionSVG />} />
+                <PhotoSectionLeft subHeadingTitle='resume writing'routerUrl='/resume-writing' para={workText[8].subWorkText} photo={<ResumeSVG />} />
+                <PhotoSectionRight subHeadingTitle='bio-data writing' routerUrl='/bio-data' para={workText[9].subWorkText}  photo={<BioDataSVG />} />
 
 
             </div>
@@ -244,8 +244,8 @@ const Work = () => {
 
                 </Container>
 
-                <PhotoSectionRight subHeadingTitle='product promotion' para={workText[10].subWorkText} photo={<ProductSVG />} />
-                <PhotoSectionLeft subHeadingTitle='brand promotion' para={workText[11].subWorkText} photo={<BrandPromotionSVG />} />
+                <PhotoSectionRight subHeadingTitle='product promotion' routerUrl='/product-promotion' para={workText[10].subWorkText} photo={<ProductSVG />} />
+                <PhotoSectionLeft subHeadingTitle='brand promotion' routerUrl='/brand-promotion' para={workText[11].subWorkText} photo={<BrandPromotionSVG />} />
 
             </div>
 

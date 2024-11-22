@@ -3,6 +3,7 @@ import Container from '../Custom/Container/Container'
 import Grid from '@mui/material/Grid2'
 import { Button } from '@mui/material'
 import SubHeading from '../Custom/Sub_heading/SubHeading'
+import { Link } from 'react-router-dom'
 
 const PhotoSectionRight = (props) => {
 
@@ -24,7 +25,7 @@ const PhotoSectionRight = (props) => {
                             <div className="work-text">
                                 <p className='paragraph-subheading'>{props.para}</p>
                                 <Button className='work-btn' variant="contained" sx={{ backgroundColor: '#213E60', color: 'white', '&:hover': { backgroundColor: '#1B3452' }, marginTop: '1rem' }}>
-                                    View my work
+                                    <Link style={{textDecoration:'none'}} to={props.routerUrl}>View My Work</Link>
                                 </Button>
                             </div>
 

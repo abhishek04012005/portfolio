@@ -31,11 +31,6 @@ const Footer = () => {
                                 <div className="footer-links">
                                    
                                     <Link to='/'>Portfolio</Link>
-                                    {/* <a href="#aboutme">About Me</a>
-                                    <a href="#myskills">My Skills</a>
-                                    <a href="#mywork">My Work</a>
-                                    <a href="#testimonials">Testimonials</a>
-                                    <a href="#contact">Contact Me</a> */}
                                 </div>
 
 
