@@ -24,9 +24,11 @@ const PhotoSectionRight = (props) => {
                             <SubHeading title={props.subHeadingTitle} />
                             <div className="work-text">
                                 <p className='paragraph-subheading'>{props.para}</p>
-                                <Button className='work-btn' variant="contained" sx={{ backgroundColor: '#213E60', color: 'white', '&:hover': { backgroundColor: '#1B3452' }, marginTop: '1rem' }}>
-                                    <Link style={{textDecoration:'none'}} to={props.routerUrl}>View My Work</Link>
-                                </Button>
+                                <Link style={{ textDecoration: 'none' }} to={props.routerUrl}>V
+                                    <Button className='work-btn' variant="contained" sx={{ backgroundColor: '#213E60', color: 'white', '&:hover': { backgroundColor: '#1B3452' }, marginTop: '1rem' }}>
+                                       View My Work
+                                    </Button>
+                                </Link>
                             </div>
 
                         </Grid>
