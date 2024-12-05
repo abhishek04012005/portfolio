@@ -1,11 +1,13 @@
 import React, { useState } from 'react';
 import './ServiceCard.css';
-import { Download, RemoveRedEye, Close } from '@mui/icons-material';
+import { RemoveRedEye, Close, Preview } from '@mui/icons-material';
 
 const ServiceCard = (props) => {
     // State to manage the popup visibility
     const [isPopupVisible, setPopupVisible] = useState(false);
 
+   
+    /*
     const downloadImage = () => {
         const link = document.createElement('a'); // Create a temporary link element
         link.href = props.image; // Set link href to image source URL
@@ -13,6 +15,12 @@ const ServiceCard = (props) => {
         document.body.appendChild(link); // Append link to the document
         link.click(); // Programmatically click the link to start download
         document.body.removeChild(link); // Remove link from the document
+    };
+    */
+
+    const openUrl = () => {
+        // Open image in a new tab
+        window.open(props.url, '_blank');
     };
 
     // Function to show popup
@@ -39,8 +47,8 @@ const ServiceCard = (props) => {
                         </div>
                         <div className='service-card-button'>
                             <h3>
-                                <RemoveRedEye onClick={showPopup} /> &nbsp;
-                                <Download onClick={downloadImage} />
+                                <RemoveRedEye onClick={openUrl} /> &nbsp;
+                                <Preview onClick={showPopup} />
                             </h3>
                         </div>
                     </div>

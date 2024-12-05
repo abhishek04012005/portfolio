@@ -24,6 +24,7 @@ import PersonalPortfolio from './components/Service/WebDevelopmentSection/Person
 //3D Animation
 import ProductPromotion from './components/Service/AnimationSection/ProductPromotion/ProductPromotion';
 import BrandPromotion from './components/Service/AnimationSection/BrandPromotion/BrandPromotion';
+import Admin from './components/Admin/Admin';
 
 
 function App() {
@@ -36,18 +37,20 @@ function App() {
           <Route path="/bio-data" element={<BioDataWriting />} />
           <Route path="/birthday-invitation" element={<BirthdayInvitation />} />
           <Route path="/resume-writing" element={<ResumeWriting />} />
-          <Route path="/wedding-invitation" element={<WeddingInvitation/>} />
+          <Route path="/wedding-invitation" element={<WeddingInvitation />} />
 
-          <Route path="/anniversary-website" element={<AnniversaryWebsite/>} />
-          <Route path="/birthday-website" element={<BirthdayWebsite/>} />
-          <Route path="/blogging-website" element={<BloggingWebsite/>} />
-          <Route path="/wedding-website" element={<WeddingWebsite/>} />
+          <Route path="/anniversary-website" element={<AnniversaryWebsite />} />
+          <Route path="/birthday-website" element={<BirthdayWebsite />} />
+          <Route path="/blogging-website" element={<BloggingWebsite />} />
+          <Route path="/wedding-website" element={<WeddingWebsite />} />
 
-          <Route path="/business-website" element={<BusinessWebsite/>} />
-          <Route path="/personal-portfolio" element={<PersonalPortfolio/>} />
+          <Route path="/business-website" element={<BusinessWebsite />} />
+          <Route path="/personal-portfolio" element={<PersonalPortfolio />} />
 
-          <Route path="/product-promotion" element={<ProductPromotion/>} />
-          <Route path="/brand-promotion" element={<BrandPromotion/>} />
+          <Route path="/product-promotion" element={<ProductPromotion />} />
+          <Route path="/brand-promotion" element={<BrandPromotion />} />
+
+          <Route path="/admin" element={<Admin />} />
 
 
         </Routes>
