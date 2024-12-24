@@ -6,11 +6,24 @@ import SubHeading from '../../../Custom/Sub_heading/SubHeading'
 import Heading from '../../../Custom/Heading/Heading'
 import ServiceCard from '../../CustomService/ServiceCard/ServiceCard'
 import { girlBirthdayWebsite, boyBirthdayWebsite } from '../../CustomService/ServiceCard/ServiceConstant'
+import { Helmet } from 'react-helmet'
 
 
 const BirthdayWebsite = () => {
   return (
     <>
+   <Helmet>
+        <title>Birthday Website</title>
+        <meta name="description" content="Discover a wide range of birthday gifts for all ages. Shop now for unique and personalized presents to make every birthday special." />
+        <meta name="keywords" content="birthday website, website, birthday website for boy, birthday website for girl, first birthday website, birthday gifts, personalized presents, birthday shop, unique birthday gifts" />
+        <meta property="og:title" content="Birthday Website| Birthday Gifts Galore | Your One-Stop Birthday Shop" />
+        <meta property="og:description" content="Explore our collection of unique birthday gifts. Find the perfect present to celebrate your loved one's special day." />
+        <meta property="og:image" content="https://abhishekchoudhary.co.in/static/media/girl-unicorn-theme.e58db2ede19b7a37f0c2.png" />
+        <meta property="og:url" content="https://abhishekchoudhary.co.in/birthday-website" />
+
+       
+Convert this tags for instagram and youtube
+      </Helmet>
       <div className="birthday-website">
         <Container>
           <div className="birthday-website-inner">

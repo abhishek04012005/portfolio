@@ -6,10 +6,27 @@ import WeddingWebsiteSVG from '../../../SVG/WeddingWebsiteSVG/WeddingWebsiteSVG'
 import SubHeading from '../../../Custom/Sub_heading/SubHeading'
 import ServiceCard from '../../CustomService/ServiceCard/ServiceCard'
 import { brideWeddingWebsite, groomWeddingWebsite } from '../../CustomService/ServiceCard/ServiceConstant'
+import { Helmet } from 'react-helmet'
 
 const WeddingWebsite = () => {
   return (
     <>
+
+      <Helmet>
+
+        <title>Wedding Website</title>
+
+        <meta name="description" content="Discover Beautiful Wedding, your ultimate destination for wedding planning, inspiration, and resources. Make your special day unforgettable with our expert tips and guidance." />
+        <meta name="keywords" content="wedding, wedding website, wedding website for groom, wedding website for bride, wedding planning, wedding inspiration, wedding tips, wedding ideas, wedding resources" />
+        <meta name="author" content="Beautiful Wedding" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Beautiful Wedding - Your Dream Wedding Starts Here" />
+        <meta property="og:description" content="Discover Beautiful Wedding, your ultimate destination for wedding planning, inspiration, and resources. Make your special day unforgettable with our expert tips and guidance." />
+        <meta property="og:image" content="https://abhishekchoudhary.co.in/static/media/bride1112.63f581cdb2cac658f948.png" />
+        <meta property="og:url" content="https://abhishekchoudhary.co.in/wedding-website" />
+      </Helmet>
+
+
       <div classname="wedding-website">
         <Container>
           <div className="wedding-website-inner">

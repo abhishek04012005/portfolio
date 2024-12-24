@@ -5,11 +5,25 @@ import Heading from '../../../Custom/Heading/Heading'
 import BioDataSVG from '../../../SVG/BioDataSVG/BioDataSVG'
 import ServiceCard from '../../CustomService/ServiceCard/ServiceCard'
 import { bioDataService } from '../../CustomService/ServiceCard/ServiceConstant'
+import { Helmet } from 'react-helmet'
 
 
 const BioDataWriting = () => {
   return (
     <>
+
+      <Helmet>
+        <title>Create Your Bio-Data - Professional Bio-Data Service</title>
+        <meta name="description" content="Create your professional bio-data effortlessly with our comprehensive bio-data service. Perfect for job applications, matrimonial purposes, and more." />
+        <meta name="keywords" content="bio-data, bio-data service, professional bio-data, job bio-data, matrimonial bio-data, create bio-data" />
+        <meta name="author" content="Your Bio-Data Service" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta property="og:title" content="Create Your Bio-Data - Professional Bio-Data Service" />
+        <meta property="og:description" content="Create your professional bio-data effortlessly with our comprehensive bio-data service. Perfect for job applications, matrimonial purposes, and more." />
+        <meta property="og:image" content="https://abhishekchoudhary.co.in/static/media/1111.33cc01e47b1b7a285bf4.png" />
+        <meta property="og:url" content="https://abhishekchoudhary.co.in/bio-data" />
+
+      </Helmet>
 
       <div className="biodatawriting">
         <Container>

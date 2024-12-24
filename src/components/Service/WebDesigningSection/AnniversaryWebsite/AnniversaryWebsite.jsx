@@ -5,11 +5,29 @@ import Heading from '../../../Custom/Heading/Heading'
 import AnniversaryWebsiteSVG from '../../../SVG/AnniversaryWebsiteSVG/AnniversaryWebsiteSVG'
 import ServiceCard from '../../CustomService/ServiceCard/ServiceCard'
 import { anniversaryWebsite } from '../../CustomService/ServiceCard/ServiceConstant'
+import { Helmet } from 'react-helmet';
 
 
 const AnniversaryWebsite = () => {
   return (
     <>
+    <Helmet>
+
+      <title>Anniversary Website Templates</title>
+
+      <meta name="description" content="Discover beautifully designed anniversary website templates to commemorate your special moments. Easy to customize and perfect for any celebration." />
+        <meta name="keywords" content="anniversary, website templates, celebration, customizable templates, special occasions" />
+        <meta name="author" content="The Abhishek Choudhary" />
+        <meta name="robots" content="index, follow" />
+        <meta property="og:title" content="Beautiful Anniversary Website Templates" />
+        <meta property="og:description" content="Explore our collection of customizable anniversary website templates to celebrate your special moments." />
+        <meta property="og:image" content="https://abhishekchoudhary.co.in/static/media/anniversaryWebsite1212.dbaf4d31327724103cf9.png" />
+        <meta property="og:url" content="https://abhishekchoudhary.co.in/anniversary-website" />
+        <meta property="og:type" content="website" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    </Helmet>
       <div className='anniversary-website'>
         <Container>
           <div className="anniversary-website-inner">
