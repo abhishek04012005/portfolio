@@ -5,7 +5,7 @@ import Heading from '../../../Custom/Heading/Heading'
 import AnniversaryWebsiteSVG from '../../../SVG/AnniversaryWebsiteSVG/AnniversaryWebsiteSVG'
 import ServiceCard from '../../CustomService/ServiceCard/ServiceCard'
 import { anniversaryWebsite } from '../../CustomService/ServiceCard/ServiceConstant'
-import { Helmet } from 'react-helmet';
+import { Helmet } from 'react-helmet-async'
 
 
 const AnniversaryWebsite = () => {
@@ -24,8 +24,7 @@ const AnniversaryWebsite = () => {
         <meta property="og:image" content="https://abhishekchoudhary.co.in/static/media/anniversaryWebsite1212.dbaf4d31327724103cf9.png" />
         <meta property="og:url" content="https://abhishekchoudhary.co.in/wedding-anniversary-website" />
         <meta property="og:type" content="website" />
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+       
 
     </Helmet>
       <div className='anniversary-website'>

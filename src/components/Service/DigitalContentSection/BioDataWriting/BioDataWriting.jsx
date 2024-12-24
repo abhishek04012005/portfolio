@@ -5,12 +5,14 @@ import Heading from '../../../Custom/Heading/Heading'
 import BioDataSVG from '../../../SVG/BioDataSVG/BioDataSVG'
 import ServiceCard from '../../CustomService/ServiceCard/ServiceCard'
 import { bioDataService } from '../../CustomService/ServiceCard/ServiceConstant'
-import { Helmet } from 'react-helmet'
+import { Helmet } from 'react-helmet-async'
 
 
 const BioDataWriting = () => {
   return (
     <>
+
+    
 
       <Helmet>
         <title>Create Your Bio-Data - Professional Bio-Data Service</title>

@@ -6,8 +6,7 @@ import SubHeading from '../../../Custom/Sub_heading/SubHeading'
 import Heading from '../../../Custom/Heading/Heading'
 import ServiceCard from '../../CustomService/ServiceCard/ServiceCard'
 import { girlBirthdayWebsite, boyBirthdayWebsite } from '../../CustomService/ServiceCard/ServiceConstant'
-import { Helmet } from 'react-helmet'
-
+import { Helmet } from 'react-helmet-async'
 
 const BirthdayWebsite = () => {
   return (

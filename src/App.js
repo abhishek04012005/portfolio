@@ -29,6 +29,7 @@ import Admin from './components/Admin/Admin';
 
 function App() {
   return (
+  
     <Router basename='/'>
       <div className="App">
         <Navbar />
