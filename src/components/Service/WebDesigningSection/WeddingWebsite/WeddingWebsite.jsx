@@ -6,7 +6,7 @@ import WeddingWebsiteSVG from '../../../SVG/WeddingWebsiteSVG/WeddingWebsiteSVG'
 import SubHeading from '../../../Custom/Sub_heading/SubHeading'
 import ServiceCard from '../../CustomService/ServiceCard/ServiceCard'
 import { brideWeddingWebsite, groomWeddingWebsite } from '../../CustomService/ServiceCard/ServiceConstant'
-import { Helmet } from 'react-helmet-async'
+import { Helmet } from 'react-helmet'
 
 const WeddingWebsite = () => {
   return (

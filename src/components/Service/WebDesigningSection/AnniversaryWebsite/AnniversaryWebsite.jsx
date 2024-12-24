@@ -5,7 +5,7 @@ import Heading from '../../../Custom/Heading/Heading'
 import AnniversaryWebsiteSVG from '../../../SVG/AnniversaryWebsiteSVG/AnniversaryWebsiteSVG'
 import ServiceCard from '../../CustomService/ServiceCard/ServiceCard'
 import { anniversaryWebsite } from '../../CustomService/ServiceCard/ServiceConstant'
-import { Helmet } from 'react-helmet-async'
+import { Helmet } from 'react-helmet'
 
 
 const AnniversaryWebsite = () => {

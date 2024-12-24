@@ -25,15 +25,16 @@ import PersonalPortfolio from './components/Service/WebDevelopmentSection/Person
 import ProductPromotion from './components/Service/AnimationSection/ProductPromotion/ProductPromotion';
 import BrandPromotion from './components/Service/AnimationSection/BrandPromotion/BrandPromotion';
 import Admin from './components/Admin/Admin';
-import { HelmetProvider } from 'react-helmet-async';
+
 
 
 function App() {
   return (
 
+    
     <Router basename='/'>
       <div className="App">
-        <HelmetProvider context={App}>
+
           <Navbar />
           <Routes>
             <Route path="/" element={<Main />} />
@@ -59,7 +60,7 @@ function App() {
           </Routes>
           <Contact />
           <Footer />
-        </HelmetProvider>
+
       </div>
     </Router>
   );
