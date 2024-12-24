@@ -7,31 +7,33 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
 
-  <meta name="description"
+  <meta name="description" data-react-helmet="true"
     content="Professional Web Developer, Web Designer, Digital Content Creator, and 3D Animator. Specializing in website design for businesses, events, blogs, and digital media content creation.">
 
 
   <!-- SEO Title Tag -->
- 
+
 
   <!-- Keywords for SEO -->
-  <meta name="keywords"
-    content="Web Developer, Web Designer, Digital Content Creator, 3D Animation, Business Website Design, Event Websites, Wedding Invitations, Video Content, Resume Writing, Portfolio, Blogging, SEO">
+
 
   <!-- Open Graph Tags for Social Sharing -->
-  <meta property="og:title" content="Professional Web Developer, Designer & Content Creator | Portfolio">
+  <meta name="keywords"
+    content="Web Developer, Web Designer, Digital Content Creator, 3D Animation, Business Website Design, Event Websites, Wedding Invitations, Video Content, Resume Writing, Portfolio, Blogging, SEO"
+    data-react-helmet="true">
+  <meta property="og:title" content="Professional Web Developer, Designer & Content Creator | Portfolio"
+    data-react-helmet="true">
   <meta property="og:description"
-    content="Offering expert services in web development, design, content creation, and 3D animation. Specializing in business websites, event designs, invitations, and digital media content.">
-  <meta property="og:image" content="https://abhishekchoudhary.co.in">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://abhishekchoudhary.co.in">
+    content="Offering expert services in web development, design, content creation, and 3D animation. Specializing in business websites, event designs, invitations, and digital media content."
+    data-react-helmet="true">
+  <meta property="og:image"
+    content="%PUBLIC_URL%/myImage.jpg"
+    data-react-helmet="true">
+  <meta property="og:type" content="website" data-react-helmet="true">
+  <meta property="og:url" content="https://abhishekchoudhary.co.in" data-react-helmet="true">
 
-  <!-- Twitter Card Tags -->
-  <meta name="twitter:card" content="https://abhishekchoudhary.co.in">
-  <meta name="twitter:title" content="Professional Web Developer, Designer & Content Creator | Portfolio">
-  <meta name="twitter:description"
-    content="Web development and design services for businesses, events, and digital media. Connect for website design, invitations, resume writing, and more.">
-  <meta name="twitter:image" content="https://abhishekchoudhary.co.in">
+
+
 
   <!-- Author and Language -->
   <meta name="author" content="Abhishek Choudhary">
@@ -53,20 +55,20 @@
     -->
 
 
-    <script type="text/javascript">
-      (function(l) {
-        if (l.search[1] === '/' ) {
-          var decoded = l.search.slice(1).split('&').map(function(s) { 
-            return s.replace(/~and~/g, '&')
-          }).join('?');
-          window.history.replaceState(null, null,
-              l.pathname.slice(0, -1) + decoded + l.hash
-          );
-        }
-      }(window.location))
-    </script>
+  <script type="text/javascript">
+    (function (l) {
+      if (l.search[1] === '/') {
+        var decoded = l.search.slice(1).split('&').map(function (s) {
+          return s.replace(/~and~/g, '&')
+        }).join('?');
+        window.history.replaceState(null, null,
+          l.pathname.slice(0, -1) + decoded + l.hash
+        );
+      }
+    }(window.location))
+  </script>
 
-    <title>Abhishek Choudhary | Professional Web Developer, Designer & Content Creator | Portfolio</title>
+  <title>Abhishek Choudhary | Professional Web Developer, Designer & Content Creator | Portfolio</title>
 
 
 </head>
@@ -85,7 +87,7 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     
     -->
-     
+
 </body>
 
 </html>
