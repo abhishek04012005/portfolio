@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.b419afeb.css",
-    "main.js": "/static/js/main.74db8681.js",
+    "main.js": "/static/js/main.e96c702c.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/groom1111.png": "/static/media/groom1111.24733e7b84ac8a1899f6.png",
     "static/media/bride1111.png": "/static/media/bride1111.11b0f8420d5b6ec9a00c.png",
@@ -18,6 +18,7 @@
     "static/media/client6.png": "/static/media/client6.e2d8fa6c5d8f4a6f462f.png",
     "static/media/client3.png": "/static/media/client3.9626dcd5a85f2cf4cebe.png",
     "static/media/client1.png": "/static/media/client1.3c74b0c15e84af8ad94c.png",
+    "static/media/myImage.jpg": "/static/media/myImage.f49eb097c59ce92cc3fe.jpg",
     "static/media/client4.png": "/static/media/client4.7bafaff1494a70f0ead1.png",
     "static/media/client2.png": "/static/media/client2.a272bea2345108799168.png",
     "static/media/portfolio_logo1.svg": "/static/media/portfolio_logo1.3c44e4f194dd4b1846b906beec1fe5f4.svg",
@@ -25,11 +26,11 @@
     "static/media/whatsapp.svg": "/static/media/whatsapp.7dc3f3267bee9b39fd8d08466208e48a.svg",
     "index.html": "/index.html",
     "main.b419afeb.css.map": "/static/css/main.b419afeb.css.map",
-    "main.74db8681.js.map": "/static/js/main.74db8681.js.map",
+    "main.e96c702c.js.map": "/static/js/main.e96c702c.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b419afeb.css",
-    "static/js/main.74db8681.js"
+    "static/js/main.e96c702c.js"
   ]
 }
