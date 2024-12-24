@@ -25,38 +25,41 @@ import PersonalPortfolio from './components/Service/WebDevelopmentSection/Person
 import ProductPromotion from './components/Service/AnimationSection/ProductPromotion/ProductPromotion';
 import BrandPromotion from './components/Service/AnimationSection/BrandPromotion/BrandPromotion';
 import Admin from './components/Admin/Admin';
+import { HelmetProvider } from 'react-helmet-async';
 
 
 function App() {
   return (
-  
+
     <Router basename='/'>
       <div className="App">
-        <Navbar />
-        <Routes>
-          <Route path="/" element={<Main />} />
-          <Route path="/bio-data" element={<BioDataWriting />} />
-          <Route path="/birthday-invitation" element={<BirthdayInvitation />} />
-          <Route path="/resume-writing" element={<ResumeWriting />} />
-          <Route path="/wedding-invitation" element={<WeddingInvitation />} />
+        <HelmetProvider context={App}>
+          <Navbar />
+          <Routes>
+            <Route path="/" element={<Main />} />
+            <Route path="/bio-data" element={<BioDataWriting />} />
+            <Route path="/birthday-invitation" element={<BirthdayInvitation />} />
+            <Route path="/resume-writing" element={<ResumeWriting />} />
+            <Route path="/wedding-invitation" element={<WeddingInvitation />} />
 
-          <Route path="/wedding-anniversary-website" element={<AnniversaryWebsite />} />
-          <Route path="/birthday-website" element={<BirthdayWebsite />} />
-          <Route path="/blogging-website" element={<BloggingWebsite />} />
-          <Route path="/wedding-website" element={<WeddingWebsite />} />
+            <Route path="/wedding-anniversary-website" element={<AnniversaryWebsite />} />
+            <Route path="/birthday-website" element={<BirthdayWebsite />} />
+            <Route path="/blogging-website" element={<BloggingWebsite />} />
+            <Route path="/wedding-website" element={<WeddingWebsite />} />
 
-          <Route path="/business-website" element={<BusinessWebsite />} />
-          <Route path="/personal-portfolio" element={<PersonalPortfolio />} />
+            <Route path="/business-website" element={<BusinessWebsite />} />
+            <Route path="/personal-portfolio" element={<PersonalPortfolio />} />
 
-          <Route path="/product-promotion" element={<ProductPromotion />} />
-          <Route path="/brand-promotion" element={<BrandPromotion />} />
+            <Route path="/product-promotion" element={<ProductPromotion />} />
+            <Route path="/brand-promotion" element={<BrandPromotion />} />
 
-          <Route path="/admin" element={<Admin />} />
+            <Route path="/admin" element={<Admin />} />
 
 
-        </Routes>
-        <Contact />
-        <Footer />
+          </Routes>
+          <Contact />
+          <Footer />
+        </HelmetProvider>
       </div>
     </Router>
   );
