@@ -167,7 +167,7 @@ const Work = () => {
 
 
                 <PhotoSectionRight subHeadingTitle='wedding website' routerUrl='/wedding-website' para={workText[2].subWorkText} photo={<WeddingWebsiteSVG />} />
-                <PhotoSectionLeft subHeadingTitle='anniversary website' routerUrl='/anniversary-website' para={workText[3].subWorkText} photo={<AnniversaryWebsiteSVG />} />
+                <PhotoSectionLeft subHeadingTitle='wedding anniversary website' routerUrl='/wedding-anniversary-website' para={workText[3].subWorkText} photo={<AnniversaryWebsiteSVG />} />
                 <PhotoSectionRight subHeadingTitle='birthday website' routerUrl='/birthday-website' para={workText[4].subWorkText} photo={<BirthdayWebsiteSVG />} />
                 <PhotoSectionLeft subHeadingTitle='blogging website' routerUrl='/blogging-website' para={workText[5].subWorkText} photo={<BloggingSVG />} />
 
