@@ -65,7 +65,7 @@ const BirthdayWebsite = () => {
           <SubHeading title='for boy' />
 
 
-          <div className="biodata-card">
+          <div className="birthday-website-card">
             <Grid container spacing={3} mt={5}>
               {boyBirthdayWebsite.map((boyBirthdayWebsite) => (
                 <Grid key={boyBirthdayWebsite.id} size={{ xs: 12, md: 4 }}>

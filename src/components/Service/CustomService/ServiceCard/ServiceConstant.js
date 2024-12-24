@@ -12,6 +12,8 @@ import GroomWebsite1112 from '../../../../assests/weddingWebsite/groom1112.png'
 import GirlUnicornThemeWebsite from '../../../../assests/birthdayWebsite/girl-unicorn-theme.png'
 import BoyAnimalThemeWebsite from '../../../../assests/birthdayWebsite/boy-animal-theme.png'
 
+import AnniversaryWebsite1212 from '../../../../assests/anniversaryWebsite/anniversaryWebsite1212.png'
+
 
 const bioDataService = [
     {
@@ -64,7 +66,7 @@ const groomWeddingWebsite = [
         id: 2,
         title: "Design No. 1112",
         image: GroomWebsite1112,
-        url: `https://piyavish.github.io/wedding/`,
+        url: `https://piyavish.github.io/wedding-website/`,
     },
 
 ];
@@ -90,4 +92,15 @@ const girlBirthdayWebsite = [
 ];
 
 
-export { bioDataService, brideWeddingWebsite, groomWeddingWebsite, boyBirthdayWebsite, girlBirthdayWebsite };
+const anniversaryWebsite = [
+    {
+        id: 1,
+        title: "Design No. 1212",
+        image: AnniversaryWebsite1212,
+        url: `https://abhishek04012005.github.io/anniversary-website-ajlata/`,
+    },
+
+];
+
+
+export { bioDataService, brideWeddingWebsite, groomWeddingWebsite, boyBirthdayWebsite, girlBirthdayWebsite, anniversaryWebsite };

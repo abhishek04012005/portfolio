@@ -1,5 +1,4 @@
 .navbar {
-    background-color: white;
     position: fixed;
     top: 0;
     width: 100%;
@@ -15,9 +14,9 @@
     width: 80%;
 }
 
-.navbar-element {
+/* .navbar-element {
     display: flex;
-}
+} */
 
 
 .navbar-logo img {
