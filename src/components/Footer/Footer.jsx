@@ -52,7 +52,7 @@ const Footer = () => {
                                 <div className="footer-links">
                                     <Link className='footer-link-heading'> <strong>Web Designing</strong></Link>
                                     <Link to='/wedding-website'>Wedding Website</Link>
-                                    <Link to='/anniversary-website'>Anniversary Website</Link>
+                                    <Link to='/wedding-anniversary-website'>Anniversary Website</Link>
                                     <Link to='/birthday-website'>Birthday Website</Link>
                                     <Link to='/blogging-website'>Blogging Website</Link>
                                 </div>

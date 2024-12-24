@@ -20,9 +20,6 @@ const BirthdayWebsite = () => {
         <meta property="og:description" content="Explore our collection of unique birthday gifts. Find the perfect present to celebrate your loved one's special day." />
         <meta property="og:image" content="https://abhishekchoudhary.co.in/static/media/girl-unicorn-theme.e58db2ede19b7a37f0c2.png" />
         <meta property="og:url" content="https://abhishekchoudhary.co.in/birthday-website" />
-
-       
-Convert this tags for instagram and youtube
       </Helmet>
       <div className="birthday-website">
         <Container>
