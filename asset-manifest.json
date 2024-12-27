@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1b97992e.css",
-    "main.js": "/static/js/main.db6a8a3a.js",
+    "main.js": "/static/js/main.5f2c1362.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/groom1111.png": "/static/media/groom1111.24733e7b84ac8a1899f6.png",
     "static/media/bride1111.png": "/static/media/bride1111.11b0f8420d5b6ec9a00c.png",
@@ -15,8 +15,12 @@
     "static/media/productPromotion03.png": "/static/media/productPromotion03.d7afc841a535dac76ebf.png",
     "static/media/girl-unicorn-theme.png": "/static/media/girl-unicorn-theme.e58db2ede19b7a37f0c2.png",
     "static/media/client5.png": "/static/media/client5.6fd4efdacd35756ca31d.png",
+    "static/media/DVE01.png": "/static/media/DVE01.700050de36a2c96438b8.png",
     "static/media/productPromotion01.png": "/static/media/productPromotion01.c0300357f9148361e145.png",
     "static/media/anniversaryWebsite1212.png": "/static/media/anniversaryWebsite1212.dbaf4d31327724103cf9.png",
+    "static/media/DVV01.png": "/static/media/DVV01.ff96c8c93ee785ac7c69.png",
+    "static/media/MVV01.png": "/static/media/MVV01.dc927083ce45dffafd50.png",
+    "static/media/MVE01.png": "/static/media/MVE01.795ab6a9a35285d09f03.png",
     "static/media/productPromotion02.png": "/static/media/productPromotion02.9a42318c5fb4ede47404.png",
     "static/media/client6.png": "/static/media/client6.e2d8fa6c5d8f4a6f462f.png",
     "static/media/client3.png": "/static/media/client3.9626dcd5a85f2cf4cebe.png",
@@ -33,11 +37,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.1b97992e.css.map": "/static/css/main.1b97992e.css.map",
-    "main.db6a8a3a.js.map": "/static/js/main.db6a8a3a.js.map",
+    "main.5f2c1362.js.map": "/static/js/main.5f2c1362.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b97992e.css",
-    "static/js/main.db6a8a3a.js"
+    "static/js/main.5f2c1362.js"
   ]
 }
