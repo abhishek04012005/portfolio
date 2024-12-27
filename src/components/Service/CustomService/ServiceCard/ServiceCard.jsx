@@ -5,25 +5,23 @@ import { RemoveRedEye, Close, PlayCircleOutline } from '@mui/icons-material';
 import Container from '../../../Custom/Container/Container';
 import SubHeading from '../../../Custom/Sub_heading/SubHeading';
 
-// const ServiceCard = (props) => {
-
 const ServiceCard = ({ serviceCardData, subheading }) => {
-    // State to manage the popup visibility
-    const [isPopupVisible, setPopupVisible] = useState(false);
+    // State to manage the popup visibility for each card
+    const [popupVisible, setPopupVisible] = useState({});
 
     // Function to open URL in a new tab
     const openUrl = (url) => {
         window.open(url, '_blank');
     };
 
-    // Function to show popup
-    const showPopup = () => {
-        setPopupVisible(true);
+    // Function to show popup for a specific card
+    const showPopup = (id) => {
+        setPopupVisible(prevState => ({ ...prevState, [id]: true }));
     };
 
-    // Function to close popup
-    const closePopup = () => {
-        setPopupVisible(false);
+    // Function to close popup for a specific card
+    const closePopup = (id) => {
+        setPopupVisible(prevState => ({ ...prevState, [id]: false }));
     };
 
     return (
@@ -31,7 +29,7 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
             <Container>
                 <hr style={{ border: '1px solid #213E60', margin: '2rem 0 2rem 0' }} />
 
-                <SubHeading title={subheading}/>
+                <SubHeading title={subheading} />
 
                 <div className="service-main-card">
                     <Grid container spacing={3} mt={5}>
@@ -50,23 +48,23 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
                                             <div className='service-card-button'>
                                                 <h3>
                                                     <PlayCircleOutline onClick={() => openUrl(cardData.url)} /> &nbsp;
-                                                    <RemoveRedEye onClick={showPopup} />
+                                                    <RemoveRedEye onClick={() => showPopup(cardData.id)} />
                                                 </h3>
                                             </div>
                                         </div>
                                     </div>
-                                </div>
 
-                                {isPopupVisible && (
-                                    <div className="popup-overlay">
-                                        <div className="popup-content">
-                                            <button className="close-button" onClick={closePopup}>
-                                                <Close />
-                                            </button>
-                                            <img src={cardData.image} alt="Enlarged view" className="popup-image" />
+                                    {popupVisible[cardData.id] && (
+                                        <div className="popup-overlay">
+                                            <div className="popup-content">
+                                                <button className="close-button" onClick={() => closePopup(cardData.id)}>
+                                                    <Close />
+                                                </button>
+                                                <img src={cardData.image} alt="Enlarged view" className="popup-image" />
+                                            </div>
                                         </div>
-                                    </div>
-                                )}
+                                    )}
+                                </div>
                             </Grid>
                         ))}
                     </Grid>

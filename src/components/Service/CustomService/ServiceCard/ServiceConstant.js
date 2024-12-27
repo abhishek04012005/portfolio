@@ -16,6 +16,7 @@ import AnniversaryWebsite1212 from '../../../../assests/anniversaryWebsite/anniv
 
 import ProductPromotion01 from '../../../../assests/productPromotion/productPromotion01.png'
 import ProductPromotion02 from '../../../../assests/productPromotion/productPromotion02.png'
+import ProductPromotion03 from '../../../../assests/productPromotion/productPromotion03.png'
 
 const bioDataService = [
     {
@@ -70,6 +71,7 @@ const groomWeddingWebsite = [
         image: GroomWebsite1112,
         url: `https://piyavish.github.io/wedding-website/`,
     },
+  
 
 ];
 
@@ -116,6 +118,12 @@ const productPromotion = [
         title: "Design No. 02",
         image: ProductPromotion02,
         url: `https://www.instagram.com/p/DD7BxR6OFHK/`,
+    },
+    {
+        id: 3,
+        title: "Design No. 03",
+        image: ProductPromotion03,
+        url: `https://www.instagram.com/p/DEF35-OBMOH/`,
     },
  
 
