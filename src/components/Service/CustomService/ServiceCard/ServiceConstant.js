@@ -14,6 +14,8 @@ import BoyAnimalThemeWebsite from '../../../../assests/birthdayWebsite/boy-anima
 
 import AnniversaryWebsite1212 from '../../../../assests/anniversaryWebsite/anniversaryWebsite1212.png'
 
+import ProductPromotion01 from '../../../../assests/productPromotion/productPromotion01.png'
+import ProductPromotion02 from '../../../../assests/productPromotion/productPromotion02.png'
 
 const bioDataService = [
     {
@@ -102,5 +104,22 @@ const anniversaryWebsite = [
 
 ];
 
+const productPromotion = [
+    {
+        id: 1,
+        title: "Design No. 01",
+        image: ProductPromotion01,
+        url: `https://www.instagram.com/p/DD81GtxIRG1/`,
+    },
+    {
+        id: 2,
+        title: "Design No. 02",
+        image: ProductPromotion02,
+        url: `https://www.instagram.com/p/DD7BxR6OFHK/`,
+    },
+ 
 
-export { bioDataService, brideWeddingWebsite, groomWeddingWebsite, boyBirthdayWebsite, girlBirthdayWebsite, anniversaryWebsite };
+];
+
+
+export { bioDataService, brideWeddingWebsite, groomWeddingWebsite, boyBirthdayWebsite, girlBirthdayWebsite, anniversaryWebsite, productPromotion };
