@@ -31,7 +31,7 @@ const TestimonialsDetails = [
     {
         id: 2,
         testimonial:
-            "I thought it was impossible to make a 3D Model as beautiful, but Abhishek proved me wrong.",
+            "I thought it was impossible to make a 3D Model and 3D Animations as beautiful, but he proved me wrong.",
         name: "Ajay K.",
         designation: "Sr. Software Developer",
         company: "",
@@ -68,31 +68,13 @@ const TestimonialsDetails = [
     {
         id: 6,
         testimonial:
-            "Thanks for stunning graphic design, our website now attracts more visitors than ever before!",
+            "Thanks for stunning graphic design, our website now attracts more visitors and customers than ever before!",
         name: "Indu Devi",
         designation: "Ditvi",
         company: "Foundation",
         image: client6,
     },
 
-    {
-        id: 7,
-        testimonial:
-            `Thanks to the exceptional promotional video. our video is attracting more visitors than ever!`,
-        name: "Indu Devi",
-        designation: "Ditvi",
-        company: "Foundation",
-        image: client6,
-    },
-    {
-        id: 8,
-        testimonial:
-            "I never thought a video could be so captivating, but Abhishek's editing skills completely changed my mind!",
-        name: "Kanchan Devi",
-        designation: "Ditvi",
-        company: "Foundation",
-        image: client5,
-    }
 ];
 
 const workText = [
