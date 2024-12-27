@@ -16,7 +16,7 @@ const ProductPromotion = () => {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <meta property="og:title" content="Promote Your Product - Professional Video Promotion Service" />
         <meta property="og:description" content="Promote your product effortlessly with our professional video promotion service. Ideal for marketing campaigns, social media, and more." />
-        <meta property="og:image" content="https://example.com/path-to-your-image.png" />
+        <meta property="og:image" content="https://abhishekchoudhary.co.in/static/media/productPromotion03.d7afc841a535dac76ebf.png" />
         <meta property="og:url" content="https://abhishekchoudhary.co.in/product-promotion" />
       </Helmet>
 
@@ -28,10 +28,10 @@ const ProductPromotion = () => {
           para2="Leveraging advanced 3D modeling and animation capabilities of Blender, I develop immersive visual experiences that engage audiences and effectively communicate the product's value. Each project is meticulously planned and executed to ensure the animations are both visually impressive and aligned with marketing objectives."
           para3="By incorporating motion graphics, detailed textures, and lifelike movements, I produce promotional content that stands out in a competitive market. Keeping up-to-date with the latest trends and technologies in 3D animation allows me to deliver innovative and impactful solutions."
         />
-      </div>
 
      
       <ServiceCard serviceCardData={productPromotion} />
+      </div>
 
     </>
   )

@@ -18,6 +18,17 @@ import ProductPromotion01 from '../../../../assests/productPromotion/productProm
 import ProductPromotion02 from '../../../../assests/productPromotion/productPromotion02.png'
 import ProductPromotion03 from '../../../../assests/productPromotion/productPromotion03.png'
 
+
+
+import MVE01 from '../../../../assests/weddingInvitation/MVE01.png'
+
+import DVE01 from '../../../../assests/weddingInvitation/DVE01.png'
+
+import MVV01 from '../../../../assests/weddingInvitation/MVV01.png'
+
+import DVV01 from '../../../../assests/weddingInvitation/DVV01.png'
+
+
 const bioDataService = [
     {
         id: 1, title: "Design No. 1111",
@@ -71,7 +82,7 @@ const groomWeddingWebsite = [
         image: GroomWebsite1112,
         url: `https://piyavish.github.io/wedding-website/`,
     },
-  
+
 
 ];
 
@@ -125,9 +136,63 @@ const productPromotion = [
         image: ProductPromotion03,
         url: `https://www.instagram.com/p/DEF35-OBMOH/`,
     },
- 
+
 
 ];
 
 
-export { bioDataService, brideWeddingWebsite, groomWeddingWebsite, boyBirthdayWebsite, girlBirthdayWebsite, anniversaryWebsite, productPromotion };
+const mobileViewEcard = [
+    {
+        id: 1,
+        title: "MVE 01",
+        image: MVE01,
+        url: `https://www.instagram.com/p/DEGSF25z4ZY/`,
+    },
+
+];
+
+const desktopViewEcard = [
+    {
+        id: 1,
+        title: "DVE 01",
+        image: DVE01,
+        url: `https://www.instagram.com/p/C_DjjKUhoUA/`,
+    },
+
+];
+
+const mobileViewVideo = [
+    {
+        id: 1,
+        title: "MVV 01",
+        image: MVV01,
+        url: `https://www.instagram.com/reel/C_F6hYZBGQG/`,
+    },
+
+];
+
+const desktopViewVideo = [
+    {
+        id: 1,
+        title: "DVV 01",
+        image: DVV01,
+        url: `https://www.instagram.com/p/DEGQzzwTblu/`,
+    },
+
+];
+
+
+export {
+    bioDataService,
+    brideWeddingWebsite,
+    groomWeddingWebsite,
+    boyBirthdayWebsite,
+    girlBirthdayWebsite,
+    anniversaryWebsite,
+    productPromotion,
+    mobileViewEcard,
+    desktopViewEcard,
+    mobileViewVideo,
+    desktopViewVideo
+
+};

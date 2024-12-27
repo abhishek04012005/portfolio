@@ -53,7 +53,7 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
     // Function to handle form submission
     const handleSubmit = (e, id) => {
         e.preventDefault();
-        const whatsappUrl = `https://api.whatsapp.com/send?phone=919263767441&text=Name:%20${formData.name}%0ADesign%20Name:%20${formData.designName}%0AMessage:%20${formData.serviceName}%0APhone%20Number:%20${formData.phoneNumber}`;
+        const whatsappUrl = `https://api.whatsapp.com/send?phone=919263767441&text=Name:%20${formData.name}%0ADesign%20Name:%20${formData.designName}%0AServiceName:%20${formData.serviceName}%0APhone%20Number:%20${formData.phoneNumber}`;
         window.open(whatsappUrl, '_blank');
         closeFormPopup(id);
     };
