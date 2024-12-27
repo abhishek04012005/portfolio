@@ -11,7 +11,9 @@
     display: flex;
     padding: 0 15px 0 15px;
     justify-content: space-between;
+    margin-bottom: -1.5rem;
 }
+
 
 .service-card-button h3 {
     user-select: none;
@@ -24,6 +26,10 @@
     color: #213E60;
     /* Optional: set icon color to match the theme */
     transition: color 0.3s ease;
+}
+
+.service-card-button {
+    padding: 0 15px 15px 15px;
 }
 
 
@@ -106,4 +112,14 @@
         font-size: 1.75rem;
         /* Adjust font size on small screens */
     }
+}
+
+.close-button-form {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background-color: #d9534f;
 }

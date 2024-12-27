@@ -4,24 +4,58 @@ import './ServiceCard.css';
 import { RemoveRedEye, Close, PlayCircleOutline } from '@mui/icons-material';
 import Container from '../../../Custom/Container/Container';
 import SubHeading from '../../../Custom/Sub_heading/SubHeading';
+import { Button, TextField } from '@mui/material';
 
 const ServiceCard = ({ serviceCardData, subheading }) => {
     // State to manage the popup visibility for each card
     const [popupVisible, setPopupVisible] = useState({});
+    const [popupFormVisible, setPopupFormVisible] = useState({});
+
+    // State to manage form data
+    const [formData, setFormData] = useState({
+        name: '',
+        designName: '',
+        serviceName: '',
+        phoneNumber: ''
+    });
 
     // Function to open URL in a new tab
     const openUrl = (url) => {
         window.open(url, '_blank');
     };
 
-    // Function to show popup for a specific card
+    // Function to show image popup for a specific card
     const showPopup = (id) => {
         setPopupVisible(prevState => ({ ...prevState, [id]: true }));
     };
 
-    // Function to close popup for a specific card
+    // Function to close image popup for a specific card
     const closePopup = (id) => {
         setPopupVisible(prevState => ({ ...prevState, [id]: false }));
+    };
+
+    // Function to show form popup for a specific card
+    const showFormPopup = (id) => {
+        setPopupFormVisible(prevState => ({ ...prevState, [id]: true }));
+    };
+
+    // Function to close form popup for a specific card
+    const closeFormPopup = (id) => {
+        setPopupFormVisible(prevState => ({ ...prevState, [id]: false }));
+    };
+
+    // Function to handle form input changes
+    const handleInputChange = (e) => {
+        const { name, value } = e.target;
+        setFormData(prevState => ({ ...prevState, [name]: value }));
+    };
+
+    // Function to handle form submission
+    const handleSubmit = (e, id) => {
+        e.preventDefault();
+        const whatsappUrl = `https://api.whatsapp.com/send?phone=919263767441&text=Name:%20${formData.name}%0ADesign%20Name:%20${formData.designName}%0AMessage:%20${formData.serviceName}%0APhone%20Number:%20${formData.phoneNumber}`;
+        window.open(whatsappUrl, '_blank');
+        closeFormPopup(id);
     };
 
     return (
@@ -52,6 +86,25 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
                                                 </h3>
                                             </div>
                                         </div>
+
+                                        <div className="service-card-button">
+                                            <Button
+                                                type="submit"
+                                                variant="contained"
+                                                sx={{
+                                                    backgroundColor: '#213E60',
+                                                    color: 'white',
+                                                    '&:hover': {
+                                                        backgroundColor: '#1B3452'
+                                                    }
+                                                }}
+                                                fullWidth
+                                                onClick={() => showFormPopup(cardData.id)}
+                                            >
+                                                Order Now
+                                            </Button>
+                                        </div>
+
                                     </div>
 
                                     {popupVisible[cardData.id] && (
@@ -61,6 +114,72 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
                                                     <Close />
                                                 </button>
                                                 <img src={cardData.image} alt="Enlarged view" className="popup-image" />
+                                            </div>
+                                        </div>
+                                    )}
+
+                                    {popupFormVisible[cardData.id] && (
+                                        <div className="popup-overlay">
+                                            <div className="popup-content">
+                                                <button className="close-button-form" onClick={() => closeFormPopup(cardData.id)}>
+                                                    <Close />
+                                                </button>
+                                                <form onSubmit={(e) => handleSubmit(e, cardData.id)} className="popup-form">
+                                                    <TextField
+                                                        className='custom-text-field'
+                                                        label="Name"
+                                                        name="name"
+                                                        value={formData.name}
+                                                        onChange={handleInputChange}
+                                                        required
+                                                        fullWidth
+                                                        margin="normal"
+                                                    />
+                                                    <TextField
+                                                        className='custom-text-field'
+                                                        label="Design Name"
+                                                        name="designName"
+                                                        value={formData.designName}
+                                                        onChange={handleInputChange}
+                                                        required
+                                                        fullWidth
+                                                        margin="normal"
+                                                    />
+                                                    <TextField
+                                                        className='custom-text-field'
+                                                        label="Service Name"
+                                                        name="serviceName"
+                                                        value={formData.serviceName}
+                                                        onChange={handleInputChange}
+                                                        required
+                                                        fullWidth
+                                                        margin="normal"
+                                                    />
+                                                    <TextField
+                                                        className='custom-text-field'
+                                                        label="Phone Number"
+                                                        name="phoneNumber"
+                                                        value={formData.phoneNumber}
+                                                        onChange={handleInputChange}
+                                                        required
+                                                        fullWidth
+                                                        margin="normal"
+                                                    />
+                                                    <Button
+                                                        type="submit"
+                                                        variant="contained"
+                                                        sx={{
+                                                            backgroundColor: '#213E60',
+                                                            color: 'white',
+                                                            '&:hover': {
+                                                                backgroundColor: '#1B3452'
+                                                            }
+                                                        }}
+                                                        fullWidth
+                                                    >
+                                                        Submit
+                                                    </Button>
+                                                </form>
                                             </div>
                                         </div>
                                     )}
