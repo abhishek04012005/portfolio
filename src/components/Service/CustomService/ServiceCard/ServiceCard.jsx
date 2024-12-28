@@ -39,6 +39,17 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
         setPopupFormVisible(prevState => ({ ...prevState, [id]: true }));
     };
 
+    // const showFormPopup = (id, serviceName, title) => {
+    //     setFormData({
+    //         name: '',
+    //         phoneNumber: '',
+    //         serviceName: '',
+    //         designName: '',
+    //     });
+    //     setPopupFormVisible(prevState => ({ ...prevState, [id]: true }));
+    // };
+    
+
     // Function to close form popup for a specific card
     const closeFormPopup = (id) => {
         setPopupFormVisible(prevState => ({ ...prevState, [id]: false }));
@@ -51,9 +62,9 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
     };
 
     // Function to handle form submission
-    const handleSubmit = (e, id) => {
+    const handleSubmit = (e, id, cardData) => {
         e.preventDefault();
-        const whatsappUrl = `https://api.whatsapp.com/send?phone=919263767441&text=Name:%20${formData.name}%0APhone%20Number:%20${formData.phoneNumber}%0AServiceNamels:%20${formData.serviceName}%0ADesign%20Name:%20${formData.designName}`;
+        const whatsappUrl = `https://api.whatsapp.com/send?phone=919263767441&text=Name:%20${formData.name}%0APhone%20Number:%20${formData.phoneNumber}%0AService%20Name:%20${formData.serviceName || cardData.serviceName}%0ADesign%20Name:%20${formData.designName || cardData.title}`;
         window.open(whatsappUrl, '_blank');
         closeFormPopup(id);
     };
@@ -124,7 +135,7 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
                                                 <button className="close-button-form" onClick={() => closeFormPopup(cardData.id)}>
                                                     <Close />
                                                 </button>
-                                                <form onSubmit={(e) => handleSubmit(e, cardData.id)} className="popup-form">
+                                                <form onSubmit={(e) => handleSubmit(e, cardData.id, cardData)} className="popup-form">
                                                     <TextField
                                                         className='custom-text-field'
                                                         label="Your Name"
