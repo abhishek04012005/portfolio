@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1b97992e.css",
-    "main.js": "/static/js/main.5f2c1362.js",
+    "main.js": "/static/js/main.5ab3079d.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/groom1111.png": "/static/media/groom1111.24733e7b84ac8a1899f6.png",
     "static/media/bride1111.png": "/static/media/bride1111.11b0f8420d5b6ec9a00c.png",
@@ -16,8 +16,11 @@
     "static/media/girl-unicorn-theme.png": "/static/media/girl-unicorn-theme.e58db2ede19b7a37f0c2.png",
     "static/media/client5.png": "/static/media/client5.6fd4efdacd35756ca31d.png",
     "static/media/DVE01.png": "/static/media/DVE01.700050de36a2c96438b8.png",
+    "static/media/BDVE01.png": "/static/media/BDVE01.9987c479a940de345b20.png",
     "static/media/productPromotion01.png": "/static/media/productPromotion01.c0300357f9148361e145.png",
     "static/media/anniversaryWebsite1212.png": "/static/media/anniversaryWebsite1212.dbaf4d31327724103cf9.png",
+    "static/media/BMVV01.png": "/static/media/BMVV01.f4f43b72f0552d509171.png",
+    "static/media/BMVE01.png": "/static/media/BMVE01.b13577bbeafc21665ff6.png",
     "static/media/DVV01.png": "/static/media/DVV01.ff96c8c93ee785ac7c69.png",
     "static/media/MVV01.png": "/static/media/MVV01.dc927083ce45dffafd50.png",
     "static/media/MVE01.png": "/static/media/MVE01.795ab6a9a35285d09f03.png",
@@ -37,11 +40,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.1b97992e.css.map": "/static/css/main.1b97992e.css.map",
-    "main.5f2c1362.js.map": "/static/js/main.5f2c1362.js.map",
+    "main.5ab3079d.js.map": "/static/js/main.5ab3079d.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b97992e.css",
-    "static/js/main.5f2c1362.js"
+    "static/js/main.5ab3079d.js"
   ]
 }
