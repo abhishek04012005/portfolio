@@ -29,7 +29,7 @@ const AnniversaryWebsite = () => {
 
 
         <ServiceDetailBox
-          heading=""
+          heading="Wedding Anniversary Website"
           serviceImg={<AnniversaryWebsiteSVG />}
           para1="Have the pleasure of working on various wedding anniversary websites, merging creativity with sophistication. My goal is to craft visually stunning and user-friendly platforms that celebrate the unique milestones of each couple. I focus on making websites not only visually appealing but also easy to navigate for guests."
           para2="Each design includes personalized features such as photo galleries, event details, and RSVP functionalities. I stay updated with the latest design trends to provide modern yet timeless aesthetics."

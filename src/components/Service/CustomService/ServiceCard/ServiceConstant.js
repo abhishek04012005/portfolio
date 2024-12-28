@@ -45,21 +45,30 @@ import WBW02 from '../../../../assests/businessWebsite/WBW02.png'
 
 const bioDataService = [
     {
-        id: 1, title: "Design No. 1111",
+        id: 1, 
+        serviceName: "Bio-Data Writing",
+        title: "C-BD 01",
         image: BioData1111,
         url: `https://www.instagram.com/p/DDCAybvMDUJ/`,
     },
     {
-        id: 2, title: "Design No. 1112",
+        id: 2, 
+        serviceName: "Bio-Data Writing",
+        title: "C-BD 02",
         image: BioData1112,
         url: `https://www.instagram.com/p/DDCDJ7uszSH/`,
     },
     {
-        id: 3, title: "Design No. 1113", image: BioData1113,
+        id: 3, 
+        serviceName: "Bio-Data Writing",
+        title: "C-BD 03",
+        image: BioData1113,
         url: `https://www.instagram.com/p/DDCHxhgsG7V/`,
     },
     {
-        id: 4, title: "Design No. 1114",
+        id: 4, 
+        serviceName: "Bio-Data Writing",
+        title: "C-BD 04",
         image: BioData1114,
         url: `https://www.instagram.com/p/DDCIBVOsyjC/`,
     },
@@ -69,13 +78,15 @@ const bioDataService = [
 const brideWeddingWebsite = [
     {
         id: 1,
-        title: "Design No. 1111",
+        serviceName: "Bride Wedding Website",
+        title: "W-BWW 01",
         image: BrideWebsite1111,
         url: `https://hemlata-ajay.github.io/wedding/`,
     },
     {
         id: 2,
-        title: "Design No. 1112",
+        serviceName: "Bride Wedding Website",
+        title: "B-BWW 02",
         image: BrideWebsite1112,
         url: `https://piyavish.github.io/wedding/`,
     },
@@ -86,13 +97,15 @@ const brideWeddingWebsite = [
 const groomWeddingWebsite = [
     {
         id: 1,
-        title: "Design No. 1111",
+        serviceName: "Groom Wedding Website",
+        title: "W-GWW 01",
         image: GroomWebsite1111,
         url: `https://ajay-hemlata.github.io/wedding/`,
     },
     {
         id: 2,
-        title: "Design No. 1112",
+        serviceName: "Groom Wedding Website",
+        title: "W-GWW 02",
         image: GroomWebsite1112,
         url: `https://piyavish.github.io/wedding-website/`,
     },
@@ -103,6 +116,7 @@ const groomWeddingWebsite = [
 const boyBirthdayWebsite = [
     {
         id: 1,
+        serviceName: "Boy Birthday Website",
         title: "Safari Theme",
         image: BoyAnimalThemeWebsite,
         url: `https://abhishek04012005.github.io/birthday-animal-theme/`,
@@ -113,6 +127,7 @@ const boyBirthdayWebsite = [
 const girlBirthdayWebsite = [
     {
         id: 1,
+        serviceName: "Girl Birthday Website",
         title: "Unicorn Theme",
         image: GirlUnicornThemeWebsite,
         url: `https://abhishek04012005.github.io/birthday-barbie-theme/`,
@@ -124,7 +139,8 @@ const girlBirthdayWebsite = [
 const anniversaryWebsite = [
     {
         id: 1,
-        title: "Design No. 1212",
+        serviceName: "Wedding Anniversary Website",
+        title: "W-AW 01",
         image: AnniversaryWebsite1212,
         url: `https://abhishek04012005.github.io/anniversary-website-ajlata/`,
     },
@@ -134,19 +150,22 @@ const anniversaryWebsite = [
 const productPromotion = [
     {
         id: 1,
-        title: "Design No. 01",
+        serviceName: "Product Promotional Video",
+        title: "V-PP 01",
         image: ProductPromotion01,
         url: `https://www.instagram.com/p/DD81GtxIRG1/`,
     },
     {
         id: 2,
-        title: "Design No. 02",
+        serviceName: "Product Promotional Video",
+        title: "V-PP 02",
         image: ProductPromotion02,
         url: `https://www.instagram.com/p/DD7BxR6OFHK/`,
     },
     {
         id: 3,
-        title: "Design No. 03",
+        serviceName: "Product Promotional Video",
+        title: "V-PP 03",
         image: ProductPromotion03,
         url: `https://www.instagram.com/p/DEF35-OBMOH/`,
     },
@@ -158,6 +177,7 @@ const productPromotion = [
 const weddingMobileViewEcard = [
     {
         id: 1,
+        serviceName: "Wedding Invitation M. e-Card",
         title: "W-MVE 01",
         image: MVE01,
         url: `https://www.instagram.com/p/DEGSF25z4ZY/`,
@@ -168,6 +188,7 @@ const weddingMobileViewEcard = [
 const weddingDesktopViewEcard = [
     {
         id: 1,
+        serviceName: "Wedding Invitation D. e-Card",
         title: "W-DVE 01",
         image: DVE01,
         url: `https://www.instagram.com/p/C_DjjKUhoUA/`,
@@ -178,6 +199,7 @@ const weddingDesktopViewEcard = [
 const weddingMobileViewVideo = [
     {
         id: 1,
+        serviceName: "Wedding Invitation M. Video",
         title: "W-MVV 01",
         image: MVV01,
         url: `https://www.instagram.com/reel/C_F6hYZBGQG/`,
@@ -188,6 +210,7 @@ const weddingMobileViewVideo = [
 const weddingDesktopViewVideo = [
     {
         id: 1,
+        serviceName: "Wedding Invitation D. Video",
         title: "W-DVV 01",
         image: DVV01,
         url: `https://www.instagram.com/p/DEGQzzwTblu/`,
@@ -200,6 +223,7 @@ const weddingDesktopViewVideo = [
 const birthdayMobileViewEcard = [
     {
         id: 1,
+        serviceName: "Birthday Invitation M. e-Card",
         title: "B-MVE 01",
         image: BMVE01,
         url: `https://www.instagram.com/p/DEHbuY0uibL/`,
@@ -210,6 +234,7 @@ const birthdayMobileViewEcard = [
 const birthdayDesktopViewEcard = [
     {
         id: 1,
+        serviceName: "Birthday Invitation D. e-Card",
         title: "B-DVE 01",
         image: BDVE01,
         url: `https://www.instagram.com/p/DEHhAfSOThk/`,
@@ -220,6 +245,7 @@ const birthdayDesktopViewEcard = [
 const birthdayMobileViewVideo = [
     {
         id: 1,
+        serviceName: "Birthday Invitation M. Video",
         title: "B-MVV 01",
         image: BMVV01,
         url: `https://www.instagram.com/p/DDKY9ksue7M/`,
@@ -230,6 +256,7 @@ const birthdayMobileViewVideo = [
 const birthdayDesktopViewVideo = [
     {
         id: 1,
+        serviceName: "Birthday Invitation D. Video",
         title: "B-DVV 01",
         image: BDVE01,
         url: `https://www.instagram.com/p/DEHfRAbO3-k/`,
@@ -241,6 +268,7 @@ const birthdayDesktopViewVideo = [
 const resumeWriting = [
     {
         id: 1,
+        serviceName: "Resume Writing",
         title: "R-W 01",
         image: RW01,
         url: `https://www.instagram.com/p/DEHl6-nOuFi/`,
@@ -251,12 +279,14 @@ const resumeWriting = [
 const personalPortfolio = [
     {
         id: 1,
+        serviceName: "Personal Portfolio Website",
         title: "W-PP 01",
         image: WPP01,
         url: `https://abhishek04012005.github.io/my/`,
     },
     {
         id: 2,
+        serviceName: "Personal Portfolio Website",
         title: "W-PP 02",
         image: WPP02,
         url: `https://abhishek04012005.github.io/my-portfolio/`,
@@ -267,12 +297,14 @@ const personalPortfolio = [
 const businessWebsite = [
     {
         id: 1,
+        serviceName: "Business Website",
         title: "W-BW 01",
         image: WBW01,
         url: `https://abhishek04012005.github.io/anksquare/`,
     },
     {
         id: 2,
+        serviceName: "Business Website",
         title: "W-BW 02",
         image: WBW02,
         url: `https://abhishek04012005.github.io/tetrapods/`,

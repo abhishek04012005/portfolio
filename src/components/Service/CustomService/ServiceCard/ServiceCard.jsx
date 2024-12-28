@@ -14,9 +14,9 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
     // State to manage form data
     const [formData, setFormData] = useState({
         name: '',
-        designName: '',
+        phoneNumber: '',
         serviceName: '',
-        phoneNumber: ''
+        designName: '',
     });
 
     // Function to open URL in a new tab
@@ -53,7 +53,7 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
     // Function to handle form submission
     const handleSubmit = (e, id) => {
         e.preventDefault();
-        const whatsappUrl = `https://api.whatsapp.com/send?phone=919263767441&text=Name:%20${formData.name}%0ADesign%20Name:%20${formData.designName}%0AServiceNamels:%20${formData.serviceName}%0APhone%20Number:%20${formData.phoneNumber}`;
+        const whatsappUrl = `https://api.whatsapp.com/send?phone=919263767441&text=Name:%20${formData.name}%0APhone%20Number:%20${formData.phoneNumber}%0AServiceNamels:%20${formData.serviceName}%0ADesign%20Name:%20${formData.designName}`;
         window.open(whatsappUrl, '_blank');
         closeFormPopup(id);
     };
@@ -127,7 +127,7 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
                                                 <form onSubmit={(e) => handleSubmit(e, cardData.id)} className="popup-form">
                                                     <TextField
                                                         className='custom-text-field'
-                                                        label="Name"
+                                                        label="Your Name"
                                                         name="name"
                                                         value={formData.name}
                                                         onChange={handleInputChange}
@@ -135,27 +135,7 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
                                                         fullWidth
                                                         margin="normal"
                                                     />
-                                                    <TextField
-                                                        className='custom-text-field'
-                                                        label="Design Name"
-                                                        name="designName"
-                                                        value={formData.designName}
-                                                        onChange={handleInputChange}
-                                                        required
-                                                        fullWidth
-                                                        margin="normal"
-                                                    />
-                                                    <TextField
-                                                        className='custom-text-field'
-                                                        label="Service Name"
-                                                        name="serviceName"
-                                                        value={formData.serviceName}
-                                                        onChange={handleInputChange}
-                                                        required
-                                                        fullWidth
-                                                        margin="normal"
-                                                    />
-                                                    <TextField
+                                                     <TextField
                                                         className='custom-text-field'
                                                         label="Phone Number"
                                                         name="phoneNumber"
@@ -165,6 +145,28 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
                                                         fullWidth
                                                         margin="normal"
                                                     />
+                                                    
+                                                    <TextField
+                                                        className='custom-text-field'
+                                                        label="Service Name"
+                                                        name="serviceName"
+                                                        value={formData.serviceName || cardData.serviceName}
+                                                        onChange={handleInputChange}
+                                                        required
+                                                        fullWidth
+                                                        margin="normal"
+                                                    />
+                                                    <TextField
+                                                        className='custom-text-field'
+                                                        label="Design Name"
+                                                        name="designName"
+                                                        value={formData.designName || cardData.title}
+                                                        onChange={handleInputChange}
+                                                        required
+                                                        fullWidth
+                                                        margin="normal"
+                                                    />
+                                                   
                                                     <Button
                                                         type="submit"
                                                         variant="contained"
