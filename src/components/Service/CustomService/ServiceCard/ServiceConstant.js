@@ -28,6 +28,12 @@ import MVV01 from '../../../../assests/weddingInvitation/MVV01.png'
 
 import DVV01 from '../../../../assests/weddingInvitation/DVV01.png'
 
+import BMVE01 from '../../../../assests/birthdayInvitation/BMVE01.png'
+
+import BDVE01 from '../../../../assests/birthdayInvitation/BDVE01.png'
+
+import BMVV01 from '../../../../assests/birthdayInvitation/BMVV01.png'
+
 
 const bioDataService = [
     {
@@ -141,40 +147,40 @@ const productPromotion = [
 ];
 
 
-const mobileViewEcard = [
+const weddingMobileViewEcard = [
     {
         id: 1,
-        title: "MVE 01",
+        title: "W-MVE 01",
         image: MVE01,
         url: `https://www.instagram.com/p/DEGSF25z4ZY/`,
     },
 
 ];
 
-const desktopViewEcard = [
+const weddingDesktopViewEcard = [
     {
         id: 1,
-        title: "DVE 01",
+        title: "W-DVE 01",
         image: DVE01,
         url: `https://www.instagram.com/p/C_DjjKUhoUA/`,
     },
 
 ];
 
-const mobileViewVideo = [
+const weddingMobileViewVideo = [
     {
         id: 1,
-        title: "MVV 01",
+        title: "W-MVV 01",
         image: MVV01,
         url: `https://www.instagram.com/reel/C_F6hYZBGQG/`,
     },
 
 ];
 
-const desktopViewVideo = [
+const weddingDesktopViewVideo = [
     {
         id: 1,
-        title: "DVV 01",
+        title: "W-DVV 01",
         image: DVV01,
         url: `https://www.instagram.com/p/DEGQzzwTblu/`,
     },
@@ -182,17 +188,70 @@ const desktopViewVideo = [
 ];
 
 
+
+const birthdayMobileViewEcard = [
+    {
+        id: 1,
+        title: "B-MVE 01",
+        image: BMVE01,
+        url: `https://www.instagram.com/p/DEHbuY0uibL/`,
+    },
+
+];
+
+const birthdayDesktopViewEcard = [
+    {
+        id: 1,
+        title: "B-DVE 01",
+        image: BDVE01,
+        url: `https://www.instagram.com/p/DEHhAfSOThk/`,
+    },
+
+];
+
+const birthdayMobileViewVideo = [
+    {
+        id: 1,
+        title: "B-MVV 01",
+        image: BMVV01,
+        url: `https://www.instagram.com/p/DDKY9ksue7M/`,
+    },
+
+];
+
+const birthdayDesktopViewVideo = [
+    {
+        id: 1,
+        title: "B-DVV 01",
+        image: BDVE01,
+        url: `https://www.instagram.com/p/DEHfRAbO3-k/`,
+    },
+
+];
+
+
+
 export {
     bioDataService,
+
     brideWeddingWebsite,
     groomWeddingWebsite,
+
     boyBirthdayWebsite,
     girlBirthdayWebsite,
+
     anniversaryWebsite,
+
     productPromotion,
-    mobileViewEcard,
-    desktopViewEcard,
-    mobileViewVideo,
-    desktopViewVideo
+
+    weddingMobileViewEcard,
+    weddingDesktopViewEcard,
+    weddingMobileViewVideo,
+    weddingDesktopViewVideo,
+
+    birthdayMobileViewEcard,
+    birthdayDesktopViewEcard,
+    birthdayMobileViewVideo,
+    birthdayDesktopViewVideo,
 
 };

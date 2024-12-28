@@ -2,7 +2,7 @@ import React from 'react'
 import ServiceDetailBox from '../../ServiceDetailBox/ServiceDetailBox'
 import WeddingInvitaionSVG from '../../../SVG/WeddingInvitaionSVG/WeddingInvitaionSVG'
 import ServiceCard from '../../CustomService/ServiceCard/ServiceCard'
-import { mobileViewEcard, desktopViewEcard, mobileViewVideo, desktopViewVideo } from '../../CustomService/ServiceCard/ServiceConstant'
+import { weddingMobileViewEcard, weddingDesktopViewEcard, weddingMobileViewVideo, weddingDesktopViewVideo } from '../../CustomService/ServiceCard/ServiceConstant'
 import { Helmet } from 'react-helmet'
 
 
@@ -29,10 +29,10 @@ const WeddingInvitation = () => {
           para3="By staying current with design trends and incorporating innovative ideas, I create wedding invitations that stand out and set the tone for a beautiful celebration. My commitment to responsive design ensures that invitations look perfect across all digital platforms, whether viewed on a computer, tablet, or smartphone"
         />
 
-        <ServiceCard subheading="Mobile View e-Card" serviceCardData={mobileViewEcard} />
-        <ServiceCard subheading="desktop view e-Card" serviceCardData={desktopViewEcard} />
-        <ServiceCard subheading="Mobile View Video" serviceCardData={mobileViewVideo} />
-        <ServiceCard subheading="desktop View video" serviceCardData={desktopViewVideo} />
+        <ServiceCard subheading="Mobile View e-Card" serviceCardData={weddingMobileViewEcard} />
+        <ServiceCard subheading="desktop view e-Card" serviceCardData={weddingDesktopViewEcard} />
+        <ServiceCard subheading="Mobile View Video" serviceCardData={weddingMobileViewVideo} />
+        <ServiceCard subheading="desktop View video" serviceCardData={weddingDesktopViewVideo} />
 
       </div>
     </>
