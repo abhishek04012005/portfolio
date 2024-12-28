@@ -34,6 +34,14 @@ import BDVE01 from '../../../../assests/birthdayInvitation/BDVE01.png'
 
 import BMVV01 from '../../../../assests/birthdayInvitation/BMVV01.png'
 
+import RW01 from '../../../../assests/resumeWriting/RW01.png'
+
+import WPP01 from '../../../../assests/personalPortfolio/WPP01.png'
+import WPP02 from '../../../../assests/personalPortfolio/WPP02.png'
+
+import WBW01 from '../../../../assests/businessWebsite/WBW01.png'
+import WBW02 from '../../../../assests/businessWebsite/WBW02.png'
+
 
 const bioDataService = [
     {
@@ -230,6 +238,49 @@ const birthdayDesktopViewVideo = [
 ];
 
 
+const resumeWriting = [
+    {
+        id: 1,
+        title: "R-W 01",
+        image: RW01,
+        url: `https://www.instagram.com/p/DEHl6-nOuFi/`,
+    },
+
+];
+
+const personalPortfolio = [
+    {
+        id: 1,
+        title: "W-PP 01",
+        image: WPP01,
+        url: `https://abhishek04012005.github.io/my/`,
+    },
+    {
+        id: 2,
+        title: "W-PP 02",
+        image: WPP02,
+        url: `https://abhishek04012005.github.io/my-portfolio/`,
+    },
+
+];
+
+const businessWebsite = [
+    {
+        id: 1,
+        title: "W-BW 01",
+        image: WBW01,
+        url: `https://abhishek04012005.github.io/anksquare/`,
+    },
+    {
+        id: 2,
+        title: "W-BW 02",
+        image: WBW02,
+        url: `https://abhishek04012005.github.io/tetrapods/`,
+    },
+
+];
+
+
 
 export {
     bioDataService,
@@ -254,4 +305,9 @@ export {
     birthdayMobileViewVideo,
     birthdayDesktopViewVideo,
 
+    resumeWriting,
+
+    personalPortfolio,
+
+    businessWebsite,
 };

@@ -35,8 +35,8 @@ const WeddingWebsite = () => {
           para3=" My commitment to responsive design ensures that the websites look perfect on any device, providing a seamless user experience. Ultimately, my work on wedding websites aims to create a digital celebration that couples and their guests will cherish."
         />
 
-        <ServiceCard subheading="for groom" serviceCardData={brideWeddingWebsite} />
-        <ServiceCard subheading="for bride" serviceCardData={groomWeddingWebsite} />
+        <ServiceCard subheading="for bride" serviceCardData={brideWeddingWebsite} />
+        <ServiceCard subheading="for groom" serviceCardData={groomWeddingWebsite} />
 
       </div>
     </>

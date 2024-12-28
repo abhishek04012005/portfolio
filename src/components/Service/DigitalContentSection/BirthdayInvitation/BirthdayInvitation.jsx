@@ -29,7 +29,7 @@ const BirthdayInvitation = () => {
           para3="By staying current with design trends and incorporating innovative ideas, I create birthday invitations that stand out and set the tone for a joyous celebration. My commitment to responsive design ensures that invitations look perfect across all digital platforms, whether viewed on a computer, tablet, or smartphone."
         />
 
-<ServiceCard subheading="Mobile View e-Card" serviceCardData={birthdayMobileViewEcard} />
+        <ServiceCard subheading="Mobile View e-Card" serviceCardData={birthdayMobileViewEcard} />
         <ServiceCard subheading="desktop view e-Card" serviceCardData={birthdayDesktopViewEcard} />
         <ServiceCard subheading="Mobile View Video" serviceCardData={birthdayMobileViewVideo} />
         <ServiceCard subheading="desktop View video" serviceCardData={birthdayDesktopViewVideo} />
