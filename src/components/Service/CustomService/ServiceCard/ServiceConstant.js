@@ -1,7 +1,8 @@
-import BioData1111 from '../../../../assests/biodata/1111.png'
-import BioData1112 from '../../../../assests/biodata/1112.png'
-import BioData1113 from '../../../../assests/biodata/1113.png'
-import BioData1114 from '../../../../assests/biodata/1114.png'
+import CBD01 from '../../../../assests/biodata/CBD01.png'
+import CBD02 from '../../../../assests/biodata/CBD02.png'
+import CBD03 from '../../../../assests/biodata/CBD03.png'
+import CBD04 from '../../../../assests/biodata/CBD04.png'
+import CBD05 from '../../../../assests/biodata/CBD05.png'
 
 import BrideWebsite1111 from '../../../../assests/weddingWebsite/bride1111.png'
 import BrideWebsite1112 from '../../../../assests/weddingWebsite/bride1112.png'
@@ -48,29 +49,36 @@ const bioDataService = [
         id: 1, 
         serviceName: "Bio-Data Writing",
         title: "C-BD 01",
-        image: BioData1111,
+        image: CBD01,
         url: `https://www.instagram.com/p/DDCAybvMDUJ/`,
     },
     {
         id: 2, 
         serviceName: "Bio-Data Writing",
         title: "C-BD 02",
-        image: BioData1112,
+        image: CBD02,
         url: `https://www.instagram.com/p/DDCDJ7uszSH/`,
     },
     {
         id: 3, 
         serviceName: "Bio-Data Writing",
         title: "C-BD 03",
-        image: BioData1113,
+        image: CBD03,
         url: `https://www.instagram.com/p/DDCHxhgsG7V/`,
     },
     {
         id: 4, 
         serviceName: "Bio-Data Writing",
         title: "C-BD 04",
-        image: BioData1114,
+        image: CBD04,
         url: `https://www.instagram.com/p/DDCIBVOsyjC/`,
+    },
+    {
+        id: 5, 
+        serviceName: "Bio-Data Writing",
+        title: "C-BD 05",
+        image: CBD05,
+        url: `https://www.instagram.com/p/DEKh9zPhvf3/`,
     },
 ];
 
