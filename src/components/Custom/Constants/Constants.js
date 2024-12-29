@@ -4,6 +4,7 @@ import client3 from '../../../assests/client/client3.png'
 import client4 from '../../../assests/client/client4.png'
 import client5 from '../../../assests/client/client5.png'
 import client6 from '../../../assests/client/client6.png'
+import client7 from '../../../assests/client/client7.png'
 
 import HTMLImage from '../../../assests/tech/html.png'
 import CSSImage from '../../../assests/tech/css.png';
@@ -73,6 +74,15 @@ const TestimonialsDetails = [
         designation: "Ditvi",
         company: "Foundation",
         image: client6,
+    },
+    {
+        id: 7,
+        testimonial:
+            "Thanks for stunning, user-friendly wedding website that beautifully captured the essence of our special day!",
+        name: "Priyanka D.",
+        designation: "Founder Of",
+        company: "Solarise India",
+        image: client7,
     },
 
 ];
