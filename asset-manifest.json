@@ -1,10 +1,11 @@
 {
   "files": {
     "main.css": "/static/css/main.1b97992e.css",
-    "main.js": "/static/js/main.f6922c18.js",
+    "main.js": "/static/js/main.7e07bdfa.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/client5.png": "/static/media/client5.6fd4efdacd35756ca31d.png",
     "static/media/anniversaryWebsite1212.png": "/static/media/anniversaryWebsite1212.949dd17d39de6b7a4c36.png",
+    "static/media/CBD05.png": "/static/media/CBD05.40a5cb97ac793a231217.png",
     "static/media/WPP02.png": "/static/media/WPP02.e7b77869a31573d63dd6.png",
     "static/media/client7.png": "/static/media/client7.f24e828b525c98d8349c.png",
     "static/media/bride1112.png": "/static/media/bride1112.6e260147f2f1faa1b406.png",
@@ -13,13 +14,13 @@
     "static/media/groom1112.png": "/static/media/groom1112.add053987a6ab321bf64.png",
     "static/media/productPromotion02.png": "/static/media/productPromotion02.f0e836de7f50778fa972.png",
     "static/media/boy-animal-theme.png": "/static/media/boy-animal-theme.27083870c5c3515506f1.png",
-    "static/media/1113.png": "/static/media/1113.17d0c430933a73aaa7ed.png",
+    "static/media/CBD03.png": "/static/media/CBD03.17d0c430933a73aaa7ed.png",
     "static/media/productPromotion01.png": "/static/media/productPromotion01.d0d9ddcb336ddf362ea0.png",
     "static/media/WBW01.png": "/static/media/WBW01.8ff8abbf56464fbe6968.png",
-    "static/media/1112.png": "/static/media/1112.ae1c53e36a42459ff7da.png",
-    "static/media/1111.png": "/static/media/1111.d30e19af2c834b2175f9.png",
+    "static/media/CBD02.png": "/static/media/CBD02.ae1c53e36a42459ff7da.png",
+    "static/media/CBD01.png": "/static/media/CBD01.d30e19af2c834b2175f9.png",
     "static/media/productPromotion03.png": "/static/media/productPromotion03.c9a10cf4a0ac2d07fb24.png",
-    "static/media/1114.png": "/static/media/1114.e05a1c749f8602835fc2.png",
+    "static/media/CBD04.png": "/static/media/CBD04.e05a1c749f8602835fc2.png",
     "static/media/DVE01.png": "/static/media/DVE01.ea2d9c0b47563412f5c6.png",
     "static/media/WPP01.png": "/static/media/WPP01.8af960e30b31e8d1c137.png",
     "static/media/client6.png": "/static/media/client6.e2d8fa6c5d8f4a6f462f.png",
@@ -46,11 +47,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.1b97992e.css.map": "/static/css/main.1b97992e.css.map",
-    "main.f6922c18.js.map": "/static/js/main.f6922c18.js.map",
+    "main.7e07bdfa.js.map": "/static/js/main.7e07bdfa.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b97992e.css",
-    "static/js/main.f6922c18.js"
+    "static/js/main.7e07bdfa.js"
   ]
 }
