@@ -54,8 +54,8 @@ function App() {
             <Route path="/product-promotion" element={<ProductPromotion />} />
             <Route path="/brand-promotion" element={<BrandPromotion />} />
 
-            <Route path="/admin" element={<Admin />} />
 
+            <Route path="/admin" element={<Admin />} />
 
           </Routes>
           <Contact />
