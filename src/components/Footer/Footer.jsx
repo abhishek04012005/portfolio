@@ -3,7 +3,7 @@ import Grid from '@mui/material/Grid2';
 import './Footer.css'
 import Container from '../Custom/Container/Container'
 import myLogo from '../../assests/portfolio_logo1.svg'
-import { EmailOutlined, Facebook, GitHub, Instagram, LinkedIn, WhatsApp, X, YouTube } from '@mui/icons-material';
+import { EmailOutlined, Facebook, GitHub, Instagram, LinkedIn, WhatsApp, X, YouTube, Pinterest } from '@mui/icons-material';
 import { Link, useLocation } from 'react-router-dom';
 
 const Footer = () => {
@@ -29,7 +29,7 @@ const Footer = () => {
                                 // sx={{ bgcolor: 'blue' }}
                                 size={{ xs: 6, md: 2 }}>
                                 <div className="footer-links">
-                                   
+
                                     <Link to='/'>Portfolio</Link>
                                 </div>
 
@@ -101,11 +101,6 @@ const Footer = () => {
                                 <WhatsApp />
                             </a>
 
-                            <a
-                                href="mailto:theabhishekchoudhary0401@gmail.com"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            ><EmailOutlined /></a>
 
                             <a
                                 href="https://www.instagram.com/theabhishekchoudhary0401/"
@@ -114,16 +109,31 @@ const Footer = () => {
                             ><Instagram /></a>
 
                             <a
+                                href="https://www.youtube.com/@theabhishekchoudhary0401"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ><YouTube /></a>
+
+                            <a
+                                href="https://in.pinterest.com/theabhishekchoudhary0401/"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ><Pinterest /></a>
+
+
+                            <a
+                                href="mailto:theabhishekchoudhary0401@gmail.com"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            ><EmailOutlined /></a>
+
+                            <a
                                 href="https://www.facebook.com/profile.php?viewas=100000686899395&id=61568533385928"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             ><Facebook /></a>
 
-                            <a
-                                href="https://www.youtube.com/@theabhishekchoudhary0401"
-                                target="_blank"
-                                rel="noopener noreferrer"
-                            ><YouTube /></a>
+                            
 
                             <a
                                 href="https://www.linkedin.com/in/abhishek-choudhary-80b753232/"

@@ -112,7 +112,7 @@ const ServiceCard = ({ serviceCardData, subheading }) => {
                                                 fullWidth
                                                 onClick={() => showFormPopup(cardData.id)}
                                             >
-                                                Order Now
+                                                Get Now
                                             </Button>
                                         </div>
 
