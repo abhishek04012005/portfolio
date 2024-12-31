@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1b97992e.css",
-    "main.js": "/static/js/main.9d466eb2.js",
+    "main.js": "/static/js/main.645b6356.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/client5.png": "/static/media/client5.6fd4efdacd35756ca31d.png",
     "static/media/anniversaryWebsite1212.png": "/static/media/anniversaryWebsite1212.949dd17d39de6b7a4c36.png",
@@ -11,6 +11,7 @@
     "static/media/bride1112.png": "/static/media/bride1112.6e260147f2f1faa1b406.png",
     "static/media/bride1111.png": "/static/media/bride1111.b7d9c89af3fd12a6e79f.png",
     "static/media/groom1111.png": "/static/media/groom1111.80fad3059f76990ea87a.png",
+    "static/media/BMVE02.png": "/static/media/BMVE02.af7a67fe4a5c1f020c29.png",
     "static/media/groom1112.png": "/static/media/groom1112.add053987a6ab321bf64.png",
     "static/media/productPromotion02.png": "/static/media/productPromotion02.f0e836de7f50778fa972.png",
     "static/media/boy-animal-theme.png": "/static/media/boy-animal-theme.27083870c5c3515506f1.png",
@@ -47,11 +48,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.1b97992e.css.map": "/static/css/main.1b97992e.css.map",
-    "main.9d466eb2.js.map": "/static/js/main.9d466eb2.js.map",
+    "main.645b6356.js.map": "/static/js/main.645b6356.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b97992e.css",
-    "static/js/main.9d466eb2.js"
+    "static/js/main.645b6356.js"
   ]
 }
