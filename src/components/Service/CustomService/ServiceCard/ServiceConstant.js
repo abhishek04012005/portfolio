@@ -30,6 +30,8 @@ import MVV01 from '../../../../assests/weddingInvitation/MVV01.png'
 import DVV01 from '../../../../assests/weddingInvitation/DVV01.png'
 
 import BMVE01 from '../../../../assests/birthdayInvitation/BMVE01.png'
+import BMVE02 from '../../../../assests/birthdayInvitation/BMVE02.png'
+
 
 import BDVE01 from '../../../../assests/birthdayInvitation/BDVE01.png'
 
@@ -236,6 +238,14 @@ const birthdayMobileViewEcard = [
         image: BMVE01,
         url: `https://www.instagram.com/p/DEHbuY0uibL/`,
     },
+    {
+        id: 2,
+        serviceName: "Birthday Invitation M. e-Card",
+        title: "B-MVE 02",
+        image: BMVE02,
+        url: `https://www.instagram.com/p/DEO6AdQhD9j/`,
+    },
+
 
 ];
 
