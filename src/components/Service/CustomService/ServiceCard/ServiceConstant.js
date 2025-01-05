@@ -318,7 +318,7 @@ const businessWebsite = [
         serviceName: "Business Website",
         title: "W-BW 01",
         image: WBW01,
-        url: `https://abhishek04012005.github.io/anksquare/`,
+        url: `https://anksquare.com/`,
     },
     {
         id: 2,
