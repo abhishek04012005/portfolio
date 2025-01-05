@@ -96,7 +96,7 @@ const brideWeddingWebsite = [
     {
         id: 2,
         serviceName: "Bride Wedding Website",
-        title: "B-BWW 02",
+        title: "W-BWW 02",
         image: BrideWebsite1112,
         url: `https://piyavish.github.io/wedding/`,
     },
