@@ -18,6 +18,7 @@ import AnniversaryWebsite1212 from '../../../../assests/anniversaryWebsite/anniv
 import ProductPromotion01 from '../../../../assests/productPromotion/productPromotion01.png'
 import ProductPromotion02 from '../../../../assests/productPromotion/productPromotion02.png'
 import ProductPromotion03 from '../../../../assests/productPromotion/productPromotion03.png'
+import ProductPromotion04 from '../../../../assests/productPromotion/productPromotion04.png'
 
 
 
@@ -178,6 +179,13 @@ const productPromotion = [
         title: "V-PP 03",
         image: ProductPromotion03,
         url: `https://www.instagram.com/p/DEF35-OBMOH/`,
+    },
+    {
+        id: 4,
+        serviceName: "Product Promotional Video",
+        title: "V-PP 04",
+        image: ProductPromotion04,
+        url: `https://www.instagram.com/p/DEhuG9Rsp6K/`,
     },
 
 
