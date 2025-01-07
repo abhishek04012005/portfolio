@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.1b97992e.css",
-    "main.js": "/static/js/main.8592af13.js",
+    "main.js": "/static/js/main.46c1fc53.js",
     "static/js/453.41811d64.chunk.js": "/static/js/453.41811d64.chunk.js",
     "static/media/client5.png": "/static/media/client5.6fd4efdacd35756ca31d.png",
     "static/media/anniversaryWebsite1212.png": "/static/media/anniversaryWebsite1212.949dd17d39de6b7a4c36.png",
@@ -31,6 +31,7 @@
     "static/media/DVV01.png": "/static/media/DVV01.d46880207cb2297d37b9.png",
     "static/media/RW01.png": "/static/media/RW01.e43ef45feb4ba333a965.png",
     "static/media/client1.png": "/static/media/client1.3c74b0c15e84af8ad94c.png",
+    "static/media/productPromotion04.png": "/static/media/productPromotion04.1b45800497b08a83383a.png",
     "static/media/myImage.jpg": "/static/media/myImage.f49eb097c59ce92cc3fe.jpg",
     "static/media/MVE01.png": "/static/media/MVE01.5daf7d66e92739e5578b.png",
     "static/media/client4.png": "/static/media/client4.7bafaff1494a70f0ead1.png",
@@ -48,11 +49,11 @@
     "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
     "main.1b97992e.css.map": "/static/css/main.1b97992e.css.map",
-    "main.8592af13.js.map": "/static/js/main.8592af13.js.map",
+    "main.46c1fc53.js.map": "/static/js/main.46c1fc53.js.map",
     "453.41811d64.chunk.js.map": "/static/js/453.41811d64.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1b97992e.css",
-    "static/js/main.8592af13.js"
+    "static/js/main.46c1fc53.js"
   ]
 }
