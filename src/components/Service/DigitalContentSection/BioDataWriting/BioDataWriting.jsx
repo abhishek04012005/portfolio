@@ -19,11 +19,9 @@ const BioDataWriting = () => {
         <meta property="og:description" content="Create your professional bio-data effortlessly with our comprehensive bio-data service. Perfect for job applications, matrimonial purposes, and more." />
         <meta property="og:image" content="https://abhishekchoudhary.co.in/static/media/1111.33cc01e47b1b7a285bf4.png" />
         <meta property="og:url" content="https://abhishekchoudhary.co.in/bio-data" />
-
       </Helmet>
 
       <div className="biodatawriting">
-
         <ServiceDetailBox
           heading="Bio-Data Writing"
           serviceImg={<BioDataSVG />}

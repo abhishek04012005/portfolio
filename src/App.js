@@ -25,6 +25,7 @@ import PersonalPortfolio from './components/Service/WebDevelopmentSection/Person
 import ProductPromotion from './components/Service/AnimationSection/ProductPromotion/ProductPromotion';
 import BrandPromotion from './components/Service/AnimationSection/BrandPromotion/BrandPromotion';
 import Admin from './components/Admin/Admin';
+// import InstaPost from './components/InstaPost/InstaPost';
 
 
 
@@ -58,6 +59,7 @@ function App() {
             <Route path="/admin" element={<Admin />} />
 
           </Routes>
+          {/* <InstaPost/> */}
           <Contact />
           <Footer />
 
